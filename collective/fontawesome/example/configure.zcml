@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.fontawesome">
+
+  <browser:page
+      for="*"
+      name="example.collective.fontawesome"
+      template="example.pt"
+      permission="zope2.View"
+      />
+
+</configure>

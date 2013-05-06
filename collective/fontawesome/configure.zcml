@@ -1,16 +1,8 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
-    xmlns:five="http://namespaces.zope.org/five"
-    xmlns:cmf="http://namespaces.zope.org/cmf"
-    xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="collective.fontawesome">
-
-  <include package=".browser" />
-
-  <i18n:registerTranslations directory="locales" />
 
   <genericsetup:registerProfile
       name="default"
@@ -20,30 +12,7 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <include file="upgrades.zcml" />
-
-  <interface
-      interface=".layer.Layer"
+  <browser:resourceDirectory
       name="collective.fontawesome"
-      />
-
-  <!-- EXAMPLE:
-  <browser:viewlet
-      name="collective.someviewlet"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      class=".viewlets.MyViewlet"
-      layer=".interfaces.ILayer"
-      permission="zope2.View"
-      />
-  <include package="plone.app.contentmenu" />
-  <browser:page
-      for="*"
-      name="myview"
-      menu="plone_displayviews"
-      title="Galleria"
-      class=".myfile.MyView"
-      layer=".interfaces.ILayer"
-      permission="zope2.View"
-      />
-  -->
-
+      directory="resources"/>
 </configure>

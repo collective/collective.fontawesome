@@ -1,4 +1,0 @@
-<layers>
-    <layer name="collective.fontawesome"
-           interface="collective.fontawesome.layer.Layer" />
-</layers>
