@@ -10,7 +10,7 @@ Changelog
 1.0.1 (2013-05-06)
 ------------------
 
-- Nothing changed yet.
+- Fix packaging (manifest)
 
 
 1.0 (2013-05-06)
