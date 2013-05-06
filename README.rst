@@ -52,6 +52,10 @@ Or just use CSS for your class 'myclass'::
 to know more on the content to use or class to use you can look at the code
 https://github.com/FortAwesome/Font-Awesome/blob/master/docs/assets/css/font-awesome.css#L272
 
+An example page is avaible in the addon, here is a screenshot:
+
+.. image:: http://plone.org/products/collective.fontawesome/screenshot
+
 
 Credits
 =======
