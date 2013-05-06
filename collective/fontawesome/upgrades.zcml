@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.fontawesome">
+
+    <upgradeStep
+        source="*"
+        destination="1001"
+        title="Upgrade"
+        description=""
+        profile="collective.fontawesome:default"
+        handler=".upgrades.common"
+        />
+
+</configure>
