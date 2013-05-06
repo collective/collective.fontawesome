@@ -3,6 +3,8 @@ Introduction
 
 This addon register fontawesome into Plone CSS registry.
 
+version of font awesome: 3.0.2
+
 License
 =======
 
@@ -25,14 +27,39 @@ documentation_
 
 If you need ie7 support in your project you should activate the ie7 stylesheet.
 
+How to use
+==========
+
+To use an icon you can add 'icon-X' to your tag where X is the icon you want::
+
+
+    <ul>
+        <li class="icon-glass">item 1</li>
+        <li class="icon-music">item 2</li>
+        <li class="icon-search">item 3</li>
+    </ul>
+
+Or just use CSS for your class 'myclass'::
+
+    .myclass:before {
+        content: "\f000"; 
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    }
+
+to know more on the content to use or class to use you can look at the code
+https://github.com/FortAwesome/Font-Awesome/blob/master/docs/assets/css/font-awesome.css#L272
+
+
 Credits
 =======
 
 Companies
 ---------
 
-* `Planet Makina Corpus <http://www.makina-corpus.org>`_
-* `Contact Makina Corpus <mailto:python@makina-corpus.org>`_
+* Makina-Corpus http://www.makina-corpus.com
 
 People
 ------
