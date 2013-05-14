@@ -3,7 +3,7 @@ Introduction
 
 This addon register fontawesome into Plone CSS registry.
 
-version of font awesome: 3.0.2
+version of font awesome: 3.1.1
 
 License
 =======

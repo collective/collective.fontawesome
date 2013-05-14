@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.2 (unreleased)
+1.0.2 (2013-05-14)
 ------------------
 
 - Update to fontawesome 3.1.1
