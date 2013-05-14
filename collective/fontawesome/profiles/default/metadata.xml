@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>1000</version>
-  <dependencies>
-    <!--<dependency>profile-xxx:default</dependency>-->
-  </dependencies>
+  <version>1001</version>
 </metadata>
