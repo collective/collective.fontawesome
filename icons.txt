@@ -1,0 +1,61 @@
+icon-eur
+icon-euro (alias)
+icon-gbp
+icon-usd
+icon-dollar (alias)
+icon-inr
+icon-rupee (alias)
+icon-jpy
+icon-yen (alias)
+icon-cny
+icon-renminbi (alias)
+icon-krw
+icon-won (alias)
+icon-btc
+icon-bitcoin (alias)
+icon-file
+icon-file-text
+icon-sort-by-alphabet
+icon-sort-by-alphabet-alt
+icon-sort-by-attributes
+icon-sort-by-attributes-alt
+icon-sort-by-order
+icon-sort-by-order-alt
+icon-thumbs-up
+icon-thumbs-down
+icon-youtube-sign
+icon-youtube
+icon-xing
+icon-xing-sign
+icon-youtube-play
+icon-dropbox
+icon-stackexchange
+icon-instagram
+icon-flickr
+icon-adn
+icon-bitbucket
+icon-bitbucket-sign
+icon-tumblr
+icon-tumblr-sign
+icon-long-arrow-down
+icon-long-arrow-up
+icon-long-arrow-left
+icon-long-arrow-right
+icon-apple
+icon-windows
+icon-android
+icon-linux
+icon-dribble
+icon-skype
+icon-foursquare
+icon-trello
+icon-female
+icon-male
+icon-gittip
+icon-sun
+icon-moon
+icon-archive
+icon-bug
+icon-vk
+icon-weibo
+icon-renren
