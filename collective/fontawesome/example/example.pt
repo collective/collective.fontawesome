@@ -20,6 +20,76 @@ span.icon-name{margin: 10px 10px; width: 130px;}
 
 <div id="font-awesome-list">
 
+New Icons in 3.2.0
+<ul class="font-group">
+
+<li><i class="icon-compass"></i> <span class="icon-name">icon-compass</span></li>
+<li><i class="icon-collapse"></i> <span class="icon-name">icon-collapse</span></li>
+<li><i class="icon-collapse-top"></i> <span class="icon-name">icon-collapse-top</span></li>
+<li><i class="icon-expand"></i> <span class="icon-name">icon-expand</span></li>
+<li><i class="icon-eur"></i> <span class="icon-name">icon-eur</span></li>
+<li><i class="icon-euro"></i> <span class="icon-name">icon-euro</span></li>
+<li><i class="icon-gbp"></i> <span class="icon-name">icon-gbp</span></li>
+<li><i class="icon-usd"></i> <span class="icon-name">icon-usd</span></li>
+<li><i class="icon-dollar"></i> <span class="icon-name">icon-dollar</span></li>
+<li><i class="icon-inr"></i> <span class="icon-name">icon-inr</span></li>
+<li><i class="icon-rupee"></i> <span class="icon-name">icon-rupee</span></li>
+<li><i class="icon-jpy"></i> <span class="icon-name">icon-jpy</span></li>
+<li><i class="icon-yen"></i> <span class="icon-name">icon-yen</span></li>
+<li><i class="icon-cny"></i> <span class="icon-name">icon-cny</span></li>
+<li><i class="icon-renminbi"></i> <span class="icon-name">icon-renminbi</span></li>
+<li><i class="icon-krw"></i> <span class="icon-name">icon-krw</span></li>
+<li><i class="icon-won"></i> <span class="icon-name">icon-won</span></li>
+<li><i class="icon-btc"></i> <span class="icon-name">icon-btc</span></li>
+<li><i class="icon-bitcoin"></i> <span class="icon-name">icon-bitcoin</span></li>
+<li><i class="icon-file"></i> <span class="icon-name">icon-file</span></li>
+<li><i class="icon-file-text"></i> <span class="icon-name">icon-file-text</span></li>
+<li><i class="icon-sort-by-alphabet"></i> <span class="icon-name">icon-sort-by-alphabet</span></li>
+<li><i class="icon-sort-by-alphabet-alt"></i> <span class="icon-name">icon-sort-by-alphabet-alt</span></li>
+<li><i class="icon-sort-by-attributes"></i> <span class="icon-name">icon-sort-by-attributes</span></li>
+<li><i class="icon-sort-by-attributes-alt"></i> <span class="icon-name">icon-sort-by-attributes-alt</span></li>
+<li><i class="icon-sort-by-order"></i> <span class="icon-name">icon-sort-by-order</span></li>
+<li><i class="icon-sort-by-order-alt"></i> <span class="icon-name">icon-sort-by-order-alt</span></li>
+<li><i class="icon-thumbs-up"></i> <span class="icon-name">icon-thumbs-up</span></li>
+<li><i class="icon-thumbs-down"></i> <span class="icon-name">icon-thumbs-down</span></li>
+<li><i class="icon-youtube-sign"></i> <span class="icon-name">icon-youtube-sign</span></li>
+<li><i class="icon-youtube"></i> <span class="icon-name">icon-youtube</span></li>
+<li><i class="icon-xing"></i> <span class="icon-name">icon-xing</span></li>
+<li><i class="icon-xing-sign"></i> <span class="icon-name">icon-xing-sign</span></li>
+<li><i class="icon-youtube-play"></i> <span class="icon-name">icon-youtube-play</span></li>
+<li><i class="icon-dropbox"></i> <span class="icon-name">icon-dropbox</span></li>
+<li><i class="icon-stackexchange"></i> <span class="icon-name">icon-stackexchange</span></li>
+<li><i class="icon-instagram"></i> <span class="icon-name">icon-instagram</span></li>
+<li><i class="icon-flickr"></i> <span class="icon-name">icon-flickr</span></li>
+<li><i class="icon-adn"></i> <span class="icon-name">icon-adn</span></li>
+<li><i class="icon-bitbucket"></i> <span class="icon-name">icon-bitbucket</span></li>
+<li><i class="icon-bitbucket-sign"></i> <span class="icon-name">icon-bitbucket-sign</span></li>
+<li><i class="icon-tumblr"></i> <span class="icon-name">icon-tumblr</span></li>
+<li><i class="icon-tumblr-sign"></i> <span class="icon-name">icon-tumblr-sign</span></li>
+<li><i class="icon-long-arrow-down"></i> <span class="icon-name">icon-long-arrow-down</span></li>
+<li><i class="icon-long-arrow-up"></i> <span class="icon-name">icon-long-arrow-up</span></li>
+<li><i class="icon-long-arrow-left"></i> <span class="icon-name">icon-long-arrow-left</span></li>
+<li><i class="icon-long-arrow-right"></i> <span class="icon-name">icon-long-arrow-right</span></li>
+<li><i class="icon-apple"></i> <span class="icon-name">icon-apple</span></li>
+<li><i class="icon-windows"></i> <span class="icon-name">icon-windows</span></li>
+<li><i class="icon-android"></i> <span class="icon-name">icon-android</span></li>
+<li><i class="icon-linux"></i> <span class="icon-name">icon-linux</span></li>
+<li><i class="icon-dribble"></i> <span class="icon-name">icon-dribble</span></li>
+<li><i class="icon-skype"></i> <span class="icon-name">icon-skype</span></li>
+<li><i class="icon-foursquare"></i> <span class="icon-name">icon-foursquare</span></li>
+<li><i class="icon-trello"></i> <span class="icon-name">icon-trello</span></li>
+<li><i class="icon-female"></i> <span class="icon-name">icon-female</span></li>
+<li><i class="icon-male"></i> <span class="icon-name">icon-male</span></li>
+<li><i class="icon-gittip"></i> <span class="icon-name">icon-gittip</span></li>
+<li><i class="icon-sun"></i> <span class="icon-name">icon-sun</span></li>
+<li><i class="icon-moon"></i> <span class="icon-name">icon-moon</span></li>
+<li><i class="icon-archive"></i> <span class="icon-name">icon-archive</span></li>
+<li><i class="icon-bug"></i> <span class="icon-name">icon-bug</span></li>
+<li><i class="icon-vk"></i> <span class="icon-name">icon-vk</span></li>
+<li><i class="icon-weibo"></i> <span class="icon-name">icon-weibo</span></li>
+<li><i class="icon-renren"></i> <span class="icon-name">icon-renren</span></li>
+</ul>
+
   <ul class="font-group">
 
 <li><i class="icon-glass"></i> <span class="icon-name">icon-glass</span>                <span class="icon-value">"\f000"</span></li>

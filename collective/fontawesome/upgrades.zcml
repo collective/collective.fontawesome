@@ -4,7 +4,7 @@
 
     <upgradeStep
         source="*"
-        destination="1001"
+        destination="1002"
         title="Upgrade"
         description=""
         profile="collective.fontawesome:default"
