@@ -1,4 +1,8 @@
-from plone.app.testing import *
+from plone.app.testing import (
+    PloneWithPackageLayer,
+    IntegrationTesting,
+    FunctionalTesting
+)
 import collective.fontawesome
 
 
