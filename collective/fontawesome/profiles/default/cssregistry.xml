@@ -4,9 +4,4 @@
     id="++resource++collective.fontawesome/css/font-awesome.min.css"
     applyPrefix="1"
     />
- <stylesheet
-    id="++resource++collective.fontawesome/css/font-awesome-ie7.min.css"
-    applyPrefix="1"
-    enabled="0"
-    />
 </object>

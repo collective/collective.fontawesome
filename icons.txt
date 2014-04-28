@@ -1,61 +1,61 @@
-icon-eur
-icon-euro (alias)
-icon-gbp
-icon-usd
-icon-dollar (alias)
-icon-inr
-icon-rupee (alias)
-icon-jpy
-icon-yen (alias)
-icon-cny
-icon-renminbi (alias)
-icon-krw
-icon-won (alias)
-icon-btc
-icon-bitcoin (alias)
-icon-file
-icon-file-text
-icon-sort-by-alphabet
-icon-sort-by-alphabet-alt
-icon-sort-by-attributes
-icon-sort-by-attributes-alt
-icon-sort-by-order
-icon-sort-by-order-alt
-icon-thumbs-up
-icon-thumbs-down
-icon-youtube-sign
-icon-youtube
-icon-xing
-icon-xing-sign
-icon-youtube-play
-icon-dropbox
-icon-stackexchange
-icon-instagram
-icon-flickr
-icon-adn
-icon-bitbucket
-icon-bitbucket-sign
-icon-tumblr
-icon-tumblr-sign
-icon-long-arrow-down
-icon-long-arrow-up
-icon-long-arrow-left
-icon-long-arrow-right
-icon-apple
-icon-windows
-icon-android
-icon-linux
-icon-dribble
-icon-skype
-icon-foursquare
-icon-trello
-icon-female
-icon-male
-icon-gittip
-icon-sun
-icon-moon
-icon-archive
-icon-bug
-icon-vk
-icon-weibo
-icon-renren
+fa-eur
+fa-euro (alias)
+fa-gbp
+fa-usd
+fa-dollar (alias)
+fa-inr
+fa-rupee (alias)
+fa-jpy
+fa-yen (alias)
+fa-cny
+fa-renminbi (alias)
+fa-krw
+fa-won (alias)
+fa-btc
+fa-bitcoin (alias)
+fa-file
+fa-file-text
+fa-sort-by-alphabet
+fa-sort-by-alphabet-alt
+fa-sort-by-attributes
+fa-sort-by-attributes-alt
+fa-sort-by-order
+fa-sort-by-order-alt
+fa-thumbs-up
+fa-thumbs-down
+fa-youtube-sign
+fa-youtube
+fa-xing
+fa-xing-sign
+fa-youtube-play
+fa-dropbox
+fa-stackexchange
+fa-instagram
+fa-flickr
+fa-adn
+fa-bitbucket
+fa-bitbucket-sign
+fa-tumblr
+fa-tumblr-sign
+fa-long-arrow-down
+fa-long-arrow-up
+fa-long-arrow-left
+fa-long-arrow-right
+fa-apple
+fa-windows
+fa-android
+fa-linux
+fa-dribble
+fa-skype
+fa-foursquare
+fa-trello
+fa-female
+fa-male
+fa-gittip
+fa-sun
+fa-moon
+fa-archive
+fa-bug
+fa-vk
+fa-weibo
+fa-renren
