@@ -27,18 +27,18 @@ documentation_
 
 .. _documentation: http://plone.org/documentation/kb/installing-add-ons-quick-how-to
 
-If you need ie7 support in your project you should activate the ie7 stylesheet.
+.. warning:: ie7 support has ben removed
 
 How to use
 ==========
 
-To use an icon you can add 'icon-X' to your tag where X is the icon you want::
+To use an icon you can add 'fa fa-X' to your tag where X is the icon you want::
 
 
     <ul>
-        <li class="icon-glass">item 1</li>
-        <li class="icon-music">item 2</li>
-        <li class="icon-search">item 3</li>
+        <li class="fa fa-glass">item 1</li>
+        <li class="fa fa-music">item 2</li>
+        <li class="fa fa-search">item 3</li>
     </ul>
 
 Or just use CSS for your class 'myclass'::
