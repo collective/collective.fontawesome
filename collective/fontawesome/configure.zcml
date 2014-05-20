@@ -16,7 +16,7 @@
       name="replace-plone-icons"
       title="collective.fontawesome"
       directory="profiles/replace-plone-icons"
-      description="Use this profile if you want to replace the default Plone icons (e.g. for content types and actions) with FontAwesome fonts."
+      description="Use this profile if you want to replace the default Plone icons (e.g. for content types and actions) with FontAwesome fonts. IMPORTANT: this profile requires you to run the collective.fontawesome 'default' profile as well."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
