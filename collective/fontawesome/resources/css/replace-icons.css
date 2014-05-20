@@ -72,7 +72,7 @@
 
 #personaltools-logout a:before {
   font-family: FontAwesome;
-  content: "\f08b";
+  content: "\f08b  ";
 }
 
 #personaltools-dashboard a:before {
