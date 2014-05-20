@@ -44,3 +44,28 @@
 .icons-on .contenttype-document:before {
   content: "\f0f6  ";
 }
+
+.actionicon-object_buttons-cut:before {
+  font-family: FontAwesome;
+  content: "\f0c4  ";
+}
+
+.actionicon-object_buttons-copy:before {
+  font-family: FontAwesome;
+  content: "\f0c5  ";
+}
+
+.actionicon-object_buttons-paste:before {
+  font-family: FontAwesome;
+  content: "\f0ea  ";
+}
+
+.actionicon-object_buttons-delete:before {
+  font-family: FontAwesome;
+  content: "\f014  ";
+}
+
+.actionicon-object_buttons-rename:before {
+  font-family: FontAwesome;
+  content: "\f044  ";
+}
