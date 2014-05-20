@@ -11,8 +11,25 @@
       description='Extension profile'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
+  <genericsetup:registerProfile
+      name="replace-plone-icons"
+      title="collective.fontawesome"
+      directory="profiles/replace-plone-icons"
+      description="Use this profile if you want to replace the default Plone icons (e.g. for content types and actions) with FontAwesome fonts."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <include file="upgrades.zcml" />
+
   <browser:resourceDirectory
       name="collective.fontawesome"
       directory="resources"/>
+
+  <adapter for="*
+                collective.fontawesome.interfaces.IFontAwesomeReplacementLayer
+                Products.ZCatalog.CatalogBrains.AbstractCatalogBrain"
+           factory=".adapters.FontAwesomeIconReplacer"
+           provides="plone.app.layout.icons.interfaces.IContentIcon" />
 </configure>
+
