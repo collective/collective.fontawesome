@@ -69,3 +69,28 @@
   font-family: FontAwesome;
   content: "\f044  ";
 }
+
+#personaltools-logout a:before {
+  font-family: FontAwesome;
+  content: "\f08b";
+}
+
+#personaltools-dashboard a:before {
+  font-family: FontAwesome;
+  content: "\f0e4  ";
+}
+
+#personaltools-plone_setup a:before {
+  font-family: FontAwesome;
+  content: "\f085  ";
+}
+
+#personaltools-preferences a:before {
+  font-family: FontAwesome;
+  content: "\f007  ";
+}
+
+#personaltools-my-documents a:before {
+  font-family: FontAwesome;
+  content: "\f0c5  ";
+}
