@@ -58,6 +58,14 @@ An example page is avaible in the addon, here is a screenshot:
 
 .. image:: http://plone.org/products/collective.fontawesome/screenshot
 
+Replacing Plone's default icons with FontAwesome fonts
+======================================================
+
+There is now a separate Generic Setup profile called ``replace-plone-icons`` which
+will replace Plone's default icons (e.g. for content types and actions) with
+FontAwesome fonts.
+
+IMPORTANT: You still need to install the ``default`` profile as well.
 
 Credits
 =======
