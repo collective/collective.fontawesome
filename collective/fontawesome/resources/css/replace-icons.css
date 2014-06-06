@@ -1,0 +1,96 @@
+.icons-on .contenttype-document,
+.icons-on .contenttype-event,
+.icons-on .contenttype-folder,
+.icons-on .contenttype-link,
+.icons-on .contenttype-news-item,
+.icons-on .contenttype-plone-site,
+.icons-on .contenttype-collection,
+.icons-on .contenttype-topic,
+.icons-on #plone-contentmenu-factories .contenttype-file,
+.icons-on #plone-contentmenu-factories .contenttype-image {
+    background: transparent;
+    font-family: FontAwesome;
+    padding-left: 0 !important;
+}
+
+.icons-on .contenttype-folder:before {
+  content: "\f07b  ";
+}
+
+.icons-on .contenttype-link:before {
+  content: "\f08e  ";
+}
+
+.icons-on .contenttype-collection:before {
+  content: "\f022";
+}
+
+.icons-on .contenttype-news-item:before {
+  content: "\f05a  ";
+}
+
+.icons-on .contenttype-file:before {
+  content: "\f15b  ";
+}
+
+.icons-on .contenttype-image:before {
+  content: "\f03e  ";
+}
+
+.icons-on .contenttype-event:before {
+  content: "\f073  ";
+}
+
+.icons-on .contenttype-document:before {
+  content: "\f0f6  ";
+}
+
+.actionicon-object_buttons-cut:before {
+  font-family: FontAwesome;
+  content: "\f0c4  ";
+}
+
+.actionicon-object_buttons-copy:before {
+  font-family: FontAwesome;
+  content: "\f0c5  ";
+}
+
+.actionicon-object_buttons-paste:before {
+  font-family: FontAwesome;
+  content: "\f0ea  ";
+}
+
+.actionicon-object_buttons-delete:before {
+  font-family: FontAwesome;
+  content: "\f014  ";
+}
+
+.actionicon-object_buttons-rename:before {
+  font-family: FontAwesome;
+  content: "\f044  ";
+}
+
+#personaltools-logout a:before {
+  font-family: FontAwesome;
+  content: "\f08b  ";
+}
+
+#personaltools-dashboard a:before {
+  font-family: FontAwesome;
+  content: "\f0e4  ";
+}
+
+#personaltools-plone_setup a:before {
+  font-family: FontAwesome;
+  content: "\f085  ";
+}
+
+#personaltools-preferences a:before {
+  font-family: FontAwesome;
+  content: "\f007  ";
+}
+
+#personaltools-my-documents a:before {
+  font-family: FontAwesome;
+  content: "\f0c5  ";
+}

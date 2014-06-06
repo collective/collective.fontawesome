@@ -1,0 +1,4 @@
+<layers>
+ <layer name="collective.fontawesome.replace-plone-icons"
+        interface="collective.fontawesome.interfaces.IFontAwesomeReplacementLayer" />
+</layers>
