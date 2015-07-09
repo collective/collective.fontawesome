@@ -7,6 +7,7 @@ Changelog
 - Update to fontawesome 4.1.0 [jcbrand]
 - Add new GenericSetup profile that replaces Plone's default icons for content
   types and actions with FontAwesome fonts. [jcbrand]
+- Plone 5 compliancy [ebrehault]
 
 
 1.0.2 (2013-05-14)

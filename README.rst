@@ -25,6 +25,8 @@ How to install
 This addon can be installed has any other addons. please follow official
 documentation_
 
+For Plone 5, import the "collective.fontawesome (Plone 5)" profile.
+
 .. _documentation: http://plone.org/documentation/kb/installing-add-ons-quick-how-to
 
 .. warning:: ie7 support has ben removed
@@ -79,3 +81,4 @@ People
 ------
 
 - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
+- Eric Bréhault, <ebrehault@gmail.com>

@@ -20,6 +20,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="plone5"
+      title="collective.fontawesome (Plone 5)"
+      directory="profiles/plone5"
+      description='Plone 5 extension profile'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <include file="upgrades.zcml" />
 
   <browser:resourceDirectory
