@@ -1,9 +1,9 @@
 Introduction
 ============
 
-This addon register fontawesome into Plone CSS registry.
+This addon registers `Font Awesome <http://fortawesome.github.io/Font-Awesome/>`_ into Plone CSS registry.
 
-version of font awesome: 4.3.0
+Version of Font Awesome: 4.3.0
 
 License
 =======
@@ -20,14 +20,14 @@ License
 How to install
 ==============
 
-This addon can be installed has any other addons. please follow official
-documentation_
+This addon can be installed with the typical Plone addon installation process. Please see the official
+documentation_ for a description.
 
 For Plone 5, import the "collective.fontawesome (Plone 5)" profile.
 
 .. _documentation: http://plone.org/documentation/kb/installing-add-ons-quick-how-to
 
-.. warning:: ie7 support has ben removed
+.. warning:: ie7 support has been removed
 
 How to use
 ==========
@@ -51,8 +51,7 @@ Or just use CSS for your class 'myclass'::
         text-decoration: inherit;
     }
 
-to know more on the content to use or class to use you can look at the code
-https://github.com/FortAwesome/Font-Awesome/blob/master/docs/assets/css/font-awesome.css#L272
+Available CSS classes and values for the content attribute can be found in the `Font Awesome cheat sheet <http://fortawesome.github.io/Font-Awesome/cheatsheet/>`_ or in the `source code <https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css#L171>`_ (file: font-awesome.css#L171 at the time of writing).
 
 An example page is avaible in the addon, here is a screenshot:
 
@@ -63,7 +62,7 @@ Replacing Plone's default icons with FontAwesome fonts
 
 There is now a separate Generic Setup profile called ``replace-plone-icons`` which
 will replace Plone's default icons (e.g. for content types and actions) with
-FontAwesome fonts.
+Font Awesome icons.
 
 IMPORTANT: You still need to install the ``default`` profile as well.
 
