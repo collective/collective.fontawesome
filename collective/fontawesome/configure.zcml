@@ -28,6 +28,7 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <!--include package=".example" /-->
   <include file="upgrades.zcml" />
 
   <browser:resourceDirectory
