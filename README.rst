@@ -3,7 +3,7 @@ Introduction
 
 This addon registers `Font Awesome <http://fortawesome.github.io/Font-Awesome/>`_ into Plone CSS registry.
 
-Version of Font Awesome: 4.3.0
+Version of Font Awesome: 4.6.3
 
 License
 =======
@@ -79,3 +79,4 @@ People
 
 - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
 - Eric Bréhault, <ebrehault@gmail.com>
+- Gauthier Bastien, <gauthier.bastien@imio.be>
