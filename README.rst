@@ -55,7 +55,7 @@ Available CSS classes and values for the content attribute can be found in the `
 
 An example page is avaible in the addon, here is a screenshot:
 
-.. image:: http://plone.org/products/collective.fontawesome/screenshot
+.. image:: http://old.plone.org/products/collective.fontawesome/screenshot
 
 Replacing Plone's default icons with FontAwesome fonts
 ======================================================
