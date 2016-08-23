@@ -28,7 +28,9 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <!-- Uncomment following line to get the example view working, go to http://site_url/@@example.collective.fontawesome -->
   <!--include package=".example" /-->
+
   <include file="upgrades.zcml" />
 
   <browser:resourceDirectory
