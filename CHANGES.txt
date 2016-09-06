@@ -4,7 +4,11 @@ Changelog
 1.0.4 (unreleased)
 ------------------
 
-- no changes yet
+- Update to fontawesome 4.6.3 [gbastien]
+- Include *.woff2 in MANIFEST.in so file is present in the release
+  or we have an error in the browser console while trying to import
+  file fontawesome-webfont.woff2 [gbastien]
+
 
 1.0.3 (2015-07-10)
 ------------------

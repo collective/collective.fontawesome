@@ -1,4 +1,4 @@
 include docs/*.txt
-recursive-include collective *.css *.pt *.rst *.txt *.xml *.zcml *.otf *.eot *.svg *.ttf *.woff
+recursive-include collective *.css *.pt *.rst *.txt *.xml *.zcml *.otf *.eot *.svg *.ttf *.woff *.woff2
 include *
 global-exclude *.pyc *~
