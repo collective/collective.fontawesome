@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.4 (unreleased)
+1.0.4 (2016-12-05)
 ------------------
 
 - Update to fontawesome 4.6.3 [gbastien]
