@@ -2,3 +2,5 @@ include docs/*.txt
 recursive-include collective *.css *.pt *.rst *.txt *.xml *.zcml *.otf *.eot *.svg *.ttf *.woff *.woff2
 include *
 global-exclude *.pyc *~
+recursive-include docs *.GPL
+recursive-include docs *.png
