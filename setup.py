@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.5.dev0'
+version = '1.0.5.fork1'
 
 setup(name='collective.fontawesome',
       version=version,
