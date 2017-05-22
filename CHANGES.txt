@@ -4,7 +4,7 @@ Changelog
 1.0.5 (unreleased)
 ------------------
 
-- Updated to fontawesome 4.7.0
+- Updated to fontawesome 4.7.0 [ewohnlich]
 
 
 1.0.4 (2016-12-05)
