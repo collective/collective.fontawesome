@@ -5,6 +5,8 @@ Changelog
 ------------------
 
 - Updated to fontawesome 4.7.0 [ewohnlich]
+- Updated sample in @@example.collective.fontawesome to show what is
+  new in version 4.7.0 [gbastien]
 
 
 1.0.4 (2016-12-05)
