@@ -20,7 +20,59 @@ span.fa-name{margin: 10px 10px; width: 130px;}
 
 <div id="font-awesome-list">
 
-New Icons in 3.2.0
+<h2>New Icons in 4.7.0</h2>
+<ul class="font-group">
+
+<li><i class="fa fa-address-book"></i> <span class="fa-name">fa-address-book</span></li>
+<li><i class="fa fa-address-book-o"></i> <span class="fa-name">fa-address-book-o</span></li>
+<li><i class="fa fa-address-card"></i> <span class="fa-name">fa-address-card</span></li>
+<li><i class="fa fa-address-card-o"></i> <span class="fa-name">fa-address-card-o</span></li>
+<li><i class="fa fa-bandcamp"></i> <span class="fa-name">fa-bandcamp</span></li>
+<li><i class="fa fa-bath"></i> <span class="fa-name">fa-bath</span></li>
+<li><i class="fa fa-bathtub"></i> <span class="fa-name">fa-bathtub</span></li>
+<li><i class="fa fa-drivers-license"></i> <span class="fa-name">fa-drivers-license</span></li>
+<li><i class="fa fa-drivers-license-o"></i> <span class="fa-name">fa-drivers-license-o</span></li>
+<li><i class="fa fa-eercast"></i> <span class="fa-name">fa-eercast</span></li>
+<li><i class="fa fa-envelope-open"></i> <span class="fa-name">fa-envelope-open</span></li>
+<li><i class="fa fa-envelope-open-o"></i> <span class="fa-name">fa-envelope-open-o</span></li>
+<li><i class="fa fa-etsy"></i> <span class="fa-name">fa-etsy</span></li>
+<li><i class="fa fa-free-code-camp"></i> <span class="fa-name">fa-free-code-camp</span></li>
+<li><i class="fa fa-grav"></i> <span class="fa-name">fa-grav</span></li>
+<li><i class="fa fa-handshake-o"></i> <span class="fa-name">fa-handshake-o</span></li>
+<li><i class="fa fa-id-badge"></i> <span class="fa-name">fa-id-badge</span></li>
+<li><i class="fa fa-id-card"></i> <span class="fa-name">fa-id-card</span></li>
+<li><i class="fa fa-id-card-o"></i> <span class="fa-name">fa-id-card-o</span></li>
+<li><i class="fa fa-imdb"></i> <span class="fa-name">fa-imdb</span></li>
+<li><i class="fa fa-linode"></i> <span class="fa-name">fa-linode</span></li>
+<li><i class="fa fa-meetup"></i> <span class="fa-name">fa-meetup</span></li>
+<li><i class="fa fa-microchip"></i> <span class="fa-name">fa-microchip</span></li>
+<li><i class="fa fa-podcast"></i> <span class="fa-name">fa-podcast</span></li>
+<li><i class="fa fa-quora"></i> <span class="fa-name">fa-quora</span></li>
+<li><i class="fa fa-ravelry"></i> <span class="fa-name">fa-ravelry</span></li>
+<li><i class="fa fa-s15"></i> <span class="fa-name">fa-s15</span></li>
+<li><i class="fa fa-shower"></i> <span class="fa-name">fa-shower</span></li>
+<li><i class="fa fa-snowflake-o"></i> <span class="fa-name">fa-snowflake-o</span></li>
+<li><i class="fa fa-superpowers"></i> <span class="fa-name">fa-superpowers</span></li>
+<li><i class="fa fa-telegram"></i> <span class="fa-name">fa-telegram</span></li>
+<li><i class="fa fa-thermometer-full"></i> <span class="fa-name">fa-thermometer-full</span></li>
+<li><i class="fa fa-thermometer-empty"></i> <span class="fa-name">fa-thermometer-empty</span></li>
+<li><i class="fa fa-thermometer-quarter"></i> <span class="fa-name">fa-thermometer-quarter</span></li>
+<li><i class="fa fa-thermometer-half"></i> <span class="fa-name">fa-thermometer-half</span></li>
+<li><i class="fa fa-thermometer-three-quarters"></i> <span class="fa-name">fa-thermometer-three-quarters</span></li>
+<li><i class="fa fa-window-close"></i> <span class="fa-name">fa-window-close</span></li>
+<li><i class="fa fa-window-close-o"></i> <span class="fa-name">fa-window-close-o</span></li>
+<li><i class="fa fa-user-circle"></i> <span class="fa-name">fa-user-circle</span></li>
+<li><i class="fa fa-user-circle-o"></i> <span class="fa-name">fa-user-circle-o</span></li>
+<li><i class="fa fa-user-o"></i> <span class="fa-name">fa-user-o</span></li>
+<li><i class="fa fa-address-card"></i> <span class="fa-name">fa-address-card</span></li>
+<li><i class="fa fa-address-card-o"></i> <span class="fa-name">fa-address-card-o</span></li>
+<li><i class="fa fa-window-maximize"></i> <span class="fa-name">fa-window-maximize</span></li>
+<li><i class="fa fa-window-minimize"></i> <span class="fa-name">fa-window-minimize</span></li>
+<li><i class="fa fa-window-restore"></i> <span class="fa-name">fa-window-restore</span></li>
+<li><i class="fa fa-wpexplorer"></i> <span class="fa-name">fa-wpexplorer</span></li>
+</ul>
+
+<h2>New Icons in 3.2.0</h2>
 <ul class="font-group">
 
 <li><i class="fa fa-compass"></i> <span class="fa-name">fa-compass</span></li>
