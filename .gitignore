@@ -72,3 +72,5 @@ bin
 parts
 develop-eggs
 var
+lib
+include
