@@ -11,6 +11,7 @@
 *.rej
 *.pyc
 *.pyo
+*.mo
 
 # Packages #
 ############

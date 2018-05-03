@@ -1,0 +1,54 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-05-03 13:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.fontawesome\n"
+
+#: ../configure.zcml:14
+msgid "Default extension profile"
+msgstr ""
+
+#: ../example/example.pt:75
+msgid "New Icons in 3.2.0"
+msgstr ""
+
+#: ../example/example.pt:23
+msgid "New Icons in 4.7.0"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "Plone 5 extension profile"
+msgstr ""
+
+#: ../example/example.pt:14
+msgid "To use it just add class=\"fa-X\" to your tag where X is the icon you want:"
+msgstr ""
+
+#: ../configure.zcml:22
+msgid "Use this profile if you want to replace the default Plone icons (e.g. for content types and actions) with FontAwesome fonts. IMPORTANT: this profile requires you to run the collective.fontawesome 'default' profile as well."
+msgstr ""
+
+#: ../configure.zcml:14
+msgid "collective.fontawesome (Default)"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "collective.fontawesome (Plone 5)"
+msgstr ""
+
+#: ../configure.zcml:22
+msgid "collective.fontawesome (Replace Plone icons)"
+msgstr ""

@@ -1,0 +1,60 @@
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-05-03 13:30+0000\n"
+"PO-Revision-Date: 2018-05-03 11:40-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ../configure.zcml:14
+msgid "Default extension profile"
+msgstr "Perfil de extensión predeterminado"
+
+#: ../example/example.pt:75
+msgid "New Icons in 3.2.0"
+msgstr "Nuevos Iconos en 3.2.0"
+
+#: ../example/example.pt:23
+msgid "New Icons in 4.7.0"
+msgstr "Nuevos Iconos en 4.7.0"
+
+#: ../configure.zcml:30
+msgid "Plone 5 extension profile"
+msgstr "Perfil de extensión para Plone 5"
+
+#: ../example/example.pt:14
+msgid "To use it just add class=\"fa-X\" to your tag where X is the icon you want:"
+msgstr ""
+"Usarlo solo agregando class=\"fa-X\" a su etiqueta donde X es el icono que "
+"usted quiere:"
+
+#: ../configure.zcml:22
+msgid "Use this profile if you want to replace the default Plone icons (e.g. for content types and actions) with FontAwesome fonts. IMPORTANT: this profile requires you to run the collective.fontawesome 'default' profile as well."
+msgstr ""
+"Utilice este perfil si desea reemplazar los iconos predeterminados de Plone ("
+"por ejemplo, para tipos de contenido y acciones) con fuentes FontAwesome. "
+"IMPORTANTE: este perfil requiere que ejecute también el perfil Font Awesome "
+"icons (Predeterminado)."
+
+#: ../configure.zcml:14
+msgid "collective.fontawesome (Default)"
+msgstr "Font Awesome icons (Predeterminado)"
+
+#: ../configure.zcml:30
+msgid "collective.fontawesome (Plone 5)"
+msgstr "Font Awesome icons (soporte Plone 5)"
+
+#: ../configure.zcml:22
+msgid "collective.fontawesome (Replace Plone icons)"
+msgstr "Font Awesome icons (Reemplazar iconos de Plone)"
