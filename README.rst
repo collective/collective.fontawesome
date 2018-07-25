@@ -9,7 +9,7 @@ This add-on registers `Font Awesome <https://fontawesome.com/>`_ into Plone CSS 
 Features
 ========
 
-- Version of Font Awesome: 4.7.0.
+- Version of Font Awesome: 5.2.0.
 - Includes a GenericSetup profile example for Replacing Plone's default icons with FontAwesome fonts.
 - Includes a Example View working, go to http://site_url/@@example.collective.fontawesome
 
