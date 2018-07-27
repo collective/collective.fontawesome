@@ -11,410 +11,98 @@
 <div metal:fill-slot="content-core">
     <tal:main-macro metal:define-macro="content-core">
 
-<p i18n:translate="">To use it just add class="fa-X" to your tag where X is the icon you want:</p>
+<p i18n:translate="">To use it just add class="fa fa-X" (for icons using "Font Awesome 5 Free") or class="fab fa-X" ("Font Awesome 5 Brands") to your tag where X is the icon you want:</p>
 
 <style type="text/css">
     span.fa-value,
     span.fa-name {margin: 10px 10px; width: 130px;}
 </style>
 
+Full list of useable icons may be found here : <a hre="https://fontawesome.com/icons?d=gallery&m=free"></a>https://fontawesome.com/icons?d=gallery&m=free</a>
+
 <div id="font-awesome-list">
 
-    <h2 i18n:translate="">New Icons in 4.7.0</h2>
+    <h2 i18n:translate="">Some Fonts available in version 5.2.0</h2>
+    <h3 i18n:translate="">"Font Awesome 5 Free", class using "fa"</h3>
     <ul class="font-group">
         <li><i class="fa fa-address-book"></i> <span class="fa-name">fa-address-book</span></li>
-        <li><i class="fa fa-address-book-o"></i> <span class="fa-name">fa-address-book-o</span></li>
         <li><i class="fa fa-address-card"></i> <span class="fa-name">fa-address-card</span></li>
-        <li><i class="fa fa-address-card-o"></i> <span class="fa-name">fa-address-card-o</span></li>
-        <li><i class="fa fa-bandcamp"></i> <span class="fa-name">fa-bandcamp</span></li>
-        <li><i class="fa fa-bath"></i> <span class="fa-name">fa-bath</span></li>
-        <li><i class="fa fa-bathtub"></i> <span class="fa-name">fa-bathtub</span></li>
-        <li><i class="fa fa-drivers-license"></i> <span class="fa-name">fa-drivers-license</span></li>
-        <li><i class="fa fa-drivers-license-o"></i> <span class="fa-name">fa-drivers-license-o</span></li>
-        <li><i class="fa fa-eercast"></i> <span class="fa-name">fa-eercast</span></li>
-        <li><i class="fa fa-envelope-open"></i> <span class="fa-name">fa-envelope-open</span></li>
-        <li><i class="fa fa-envelope-open-o"></i> <span class="fa-name">fa-envelope-open-o</span></li>
-        <li><i class="fa fa-etsy"></i> <span class="fa-name">fa-etsy</span></li>
-        <li><i class="fa fa-free-code-camp"></i> <span class="fa-name">fa-free-code-camp</span></li>
-        <li><i class="fa fa-grav"></i> <span class="fa-name">fa-grav</span></li>
-        <li><i class="fa fa-handshake-o"></i> <span class="fa-name">fa-handshake-o</span></li>
-        <li><i class="fa fa-id-badge"></i> <span class="fa-name">fa-id-badge</span></li>
-        <li><i class="fa fa-id-card"></i> <span class="fa-name">fa-id-card</span></li>
-        <li><i class="fa fa-id-card-o"></i> <span class="fa-name">fa-id-card-o</span></li>
-        <li><i class="fa fa-imdb"></i> <span class="fa-name">fa-imdb</span></li>
-        <li><i class="fa fa-linode"></i> <span class="fa-name">fa-linode</span></li>
-        <li><i class="fa fa-meetup"></i> <span class="fa-name">fa-meetup</span></li>
-        <li><i class="fa fa-microchip"></i> <span class="fa-name">fa-microchip</span></li>
-        <li><i class="fa fa-podcast"></i> <span class="fa-name">fa-podcast</span></li>
-        <li><i class="fa fa-quora"></i> <span class="fa-name">fa-quora</span></li>
-        <li><i class="fa fa-ravelry"></i> <span class="fa-name">fa-ravelry</span></li>
-        <li><i class="fa fa-s15"></i> <span class="fa-name">fa-s15</span></li>
-        <li><i class="fa fa-shower"></i> <span class="fa-name">fa-shower</span></li>
-        <li><i class="fa fa-snowflake-o"></i> <span class="fa-name">fa-snowflake-o</span></li>
-        <li><i class="fa fa-superpowers"></i> <span class="fa-name">fa-superpowers</span></li>
-        <li><i class="fa fa-telegram"></i> <span class="fa-name">fa-telegram</span></li>
-        <li><i class="fa fa-thermometer-full"></i> <span class="fa-name">fa-thermometer-full</span></li>
-        <li><i class="fa fa-thermometer-empty"></i> <span class="fa-name">fa-thermometer-empty</span></li>
-        <li><i class="fa fa-thermometer-quarter"></i> <span class="fa-name">fa-thermometer-quarter</span></li>
-        <li><i class="fa fa-thermometer-half"></i> <span class="fa-name">fa-thermometer-half</span></li>
-        <li><i class="fa fa-thermometer-three-quarters"></i> <span class="fa-name">fa-thermometer-three-quarters</span></li>
-        <li><i class="fa fa-window-close"></i> <span class="fa-name">fa-window-close</span></li>
-        <li><i class="fa fa-window-close-o"></i> <span class="fa-name">fa-window-close-o</span></li>
-        <li><i class="fa fa-user-circle"></i> <span class="fa-name">fa-user-circle</span></li>
-        <li><i class="fa fa-user-circle-o"></i> <span class="fa-name">fa-user-circle-o</span></li>
-        <li><i class="fa fa-user-o"></i> <span class="fa-name">fa-user-o</span></li>
-        <li><i class="fa fa-address-card"></i> <span class="fa-name">fa-address-card</span></li>
-        <li><i class="fa fa-address-card-o"></i> <span class="fa-name">fa-address-card-o</span></li>
-        <li><i class="fa fa-window-maximize"></i> <span class="fa-name">fa-window-maximize</span></li>
-        <li><i class="fa fa-window-minimize"></i> <span class="fa-name">fa-window-minimize</span></li>
-        <li><i class="fa fa-window-restore"></i> <span class="fa-name">fa-window-restore</span></li>
-        <li><i class="fa fa-wpexplorer"></i> <span class="fa-name">fa-wpexplorer</span></li>
-    </ul>
-
-    <h2 i18n:translate="">New Icons in 3.2.0</h2>
-    <ul class="font-group">
-        <li><i class="fa fa-compass"></i> <span class="fa-name">fa-compass</span></li>
-        <li><i class="fa fa-collapse"></i> <span class="fa-name">fa-collapse</span></li>
-        <li><i class="fa fa-collapse-top"></i> <span class="fa-name">fa-collapse-top</span></li>
-        <li><i class="fa fa-expand"></i> <span class="fa-name">fa-expand</span></li>
-        <li><i class="fa fa-eur"></i> <span class="fa-name">fa-eur</span></li>
-        <li><i class="fa fa-euro"></i> <span class="fa-name">fa-euro</span></li>
-        <li><i class="fa fa-gbp"></i> <span class="fa-name">fa-gbp</span></li>
-        <li><i class="fa fa-usd"></i> <span class="fa-name">fa-usd</span></li>
-        <li><i class="fa fa-dollar"></i> <span class="fa-name">fa-dollar</span></li>
-        <li><i class="fa fa-inr"></i> <span class="fa-name">fa-inr</span></li>
-        <li><i class="fa fa-rupee"></i> <span class="fa-name">fa-rupee</span></li>
-        <li><i class="fa fa-jpy"></i> <span class="fa-name">fa-jpy</span></li>
-        <li><i class="fa fa-yen"></i> <span class="fa-name">fa-yen</span></li>
-        <li><i class="fa fa-cny"></i> <span class="fa-name">fa-cny</span></li>
-        <li><i class="fa fa-renminbi"></i> <span class="fa-name">fa-renminbi</span></li>
-        <li><i class="fa fa-krw"></i> <span class="fa-name">fa-krw</span></li>
-        <li><i class="fa fa-won"></i> <span class="fa-name">fa-won</span></li>
-        <li><i class="fa fa-btc"></i> <span class="fa-name">fa-btc</span></li>
-        <li><i class="fa fa-bitcoin"></i> <span class="fa-name">fa-bitcoin</span></li>
-        <li><i class="fa fa-file"></i> <span class="fa-name">fa-file</span></li>
-        <li><i class="fa fa-file-text"></i> <span class="fa-name">fa-file-text</span></li>
-        <li><i class="fa fa-sort-by-alphabet"></i> <span class="fa-name">fa-sort-by-alphabet</span></li>
-        <li><i class="fa fa-sort-by-alphabet-alt"></i> <span class="fa-name">fa-sort-by-alphabet-alt</span></li>
-        <li><i class="fa fa-sort-by-attributes"></i> <span class="fa-name">fa-sort-by-attributes</span></li>
-        <li><i class="fa fa-sort-by-attributes-alt"></i> <span class="fa-name">fa-sort-by-attributes-alt</span></li>
-        <li><i class="fa fa-sort-by-order"></i> <span class="fa-name">fa-sort-by-order</span></li>
-        <li><i class="fa fa-sort-by-order-alt"></i> <span class="fa-name">fa-sort-by-order-alt</span></li>
-        <li><i class="fa fa-thumbs-up"></i> <span class="fa-name">fa-thumbs-up</span></li>
-        <li><i class="fa fa-thumbs-down"></i> <span class="fa-name">fa-thumbs-down</span></li>
-        <li><i class="fa fa-youtube-sign"></i> <span class="fa-name">fa-youtube-sign</span></li>
-        <li><i class="fa fa-youtube"></i> <span class="fa-name">fa-youtube</span></li>
-        <li><i class="fa fa-xing"></i> <span class="fa-name">fa-xing</span></li>
-        <li><i class="fa fa-xing-sign"></i> <span class="fa-name">fa-xing-sign</span></li>
-        <li><i class="fa fa-youtube-play"></i> <span class="fa-name">fa-youtube-play</span></li>
-        <li><i class="fa fa-dropbox"></i> <span class="fa-name">fa-dropbox</span></li>
-        <li><i class="fa fa-stackexchange"></i> <span class="fa-name">fa-stackexchange</span></li>
-        <li><i class="fa fa-instagram"></i> <span class="fa-name">fa-instagram</span></li>
-        <li><i class="fa fa-flickr"></i> <span class="fa-name">fa-flickr</span></li>
-        <li><i class="fa fa-adn"></i> <span class="fa-name">fa-adn</span></li>
-        <li><i class="fa fa-bitbucket"></i> <span class="fa-name">fa-bitbucket</span></li>
-        <li><i class="fa fa-bitbucket-sign"></i> <span class="fa-name">fa-bitbucket-sign</span></li>
-        <li><i class="fa fa-tumblr"></i> <span class="fa-name">fa-tumblr</span></li>
-        <li><i class="fa fa-tumblr-sign"></i> <span class="fa-name">fa-tumblr-sign</span></li>
-        <li><i class="fa fa-long-arrow-down"></i> <span class="fa-name">fa-long-arrow-down</span></li>
-        <li><i class="fa fa-long-arrow-up"></i> <span class="fa-name">fa-long-arrow-up</span></li>
-        <li><i class="fa fa-long-arrow-left"></i> <span class="fa-name">fa-long-arrow-left</span></li>
-        <li><i class="fa fa-long-arrow-right"></i> <span class="fa-name">fa-long-arrow-right</span></li>
-        <li><i class="fa fa-apple"></i> <span class="fa-name">fa-apple</span></li>
-        <li><i class="fa fa-windows"></i> <span class="fa-name">fa-windows</span></li>
-        <li><i class="fa fa-android"></i> <span class="fa-name">fa-android</span></li>
-        <li><i class="fa fa-linux"></i> <span class="fa-name">fa-linux</span></li>
-        <li><i class="fa fa-dribble"></i> <span class="fa-name">fa-dribble</span></li>
-        <li><i class="fa fa-skype"></i> <span class="fa-name">fa-skype</span></li>
-        <li><i class="fa fa-foursquare"></i> <span class="fa-name">fa-foursquare</span></li>
-        <li><i class="fa fa-trello"></i> <span class="fa-name">fa-trello</span></li>
-        <li><i class="fa fa-female"></i> <span class="fa-name">fa-female</span></li>
-        <li><i class="fa fa-male"></i> <span class="fa-name">fa-male</span></li>
-        <li><i class="fa fa-gittip"></i> <span class="fa-name">fa-gittip</span></li>
-        <li><i class="fa fa-sun"></i> <span class="fa-name">fa-sun</span></li>
-        <li><i class="fa fa-moon"></i> <span class="fa-name">fa-moon</span></li>
+        <li><i class="fa fa-adjust"></i> <span class="fa-name">fa-adjust</span></li>
+        <li><i class="fa fa-air-freshener"></i> <span class="fa-name">fa-air-freshener</span></li>
+        <li><i class="fa fa-align-center"></i> <span class="fa-name">fa-align-center</span></li>
+        <li><i class="fa fa-align-justify"></i> <span class="fa-name">fa-align-justify</span></li>
+        <li><i class="fa fa-align-left"></i> <span class="fa-name">fa-align-left</span></li>
+        <li><i class="fa fa-align-right"></i> <span class="fa-name">fa-align-right</span></li>
+        <li><i class="fa fa-allergies"></i> <span class="fa-name">fa-allergies</span></li>
+        <li><i class="fa fa-ambulance"></i> <span class="fa-name">fa-ambulance</span></li>
+        <li><i class="fa fa-american-sign-language-interpreting"></i> <span class="fa-name">fa-american-sign-language-interpreting</span></li>
+        <li><i class="fa fa-anchor"></i> <span class="fa-name">fa-anchor</span></li>
+        <li><i class="fa fa-angle-double-down"></i> <span class="fa-name">fa-angle-double-down</span></li>
+        <li><i class="fa fa-angle-double-left"></i> <span class="fa-name">fa-angle-double-left</span></li>
+        <li><i class="fa fa-angle-double-right"></i> <span class="fa-name">fa-angle-double-right</span></li>
+        <li><i class="fa fa-angle-double-up"></i> <span class="fa-name">fa-angle-double-up</span></li>
+        <li><i class="fa fa-angle-down"></i> <span class="fa-name">fa-angle-down</span></li>
+        <li><i class="fa fa-angle-left"></i> <span class="fa-name">fa-angle-left</span></li>
+        <li><i class="fa fa-angle-right"></i> <span class="fa-name">fa-angle-right</span></li>
+        <li><i class="fa fa-angle-up"></i> <span class="fa-name">fa-angle-up</span></li>
+        <li><i class="fa fa-angry"></i> <span class="fa-name">fa-angry</span></li>
+        <li><i class="fa fa-angular"></i> <span class="fa-name">fa-angular</span></li>
+        <li><i class="fa fa-apple-alt"></i> <span class="fa-name">fa-apple-alt</span></li>
+        <li><i class="fa fa-apple-pay"></i> <span class="fa-name">fa-apple-pay</span></li>
         <li><i class="fa fa-archive"></i> <span class="fa-name">fa-archive</span></li>
-        <li><i class="fa fa-bug"></i> <span class="fa-name">fa-bug</span></li>
-        <li><i class="fa fa-vk"></i> <span class="fa-name">fa-vk</span></li>
-        <li><i class="fa fa-weibo"></i> <span class="fa-name">fa-weibo</span></li>
-        <li><i class="fa fa-renren"></i> <span class="fa-name">fa-renren</span></li>
+        <li><i class="fa fa-archway"></i> <span class="fa-name">fa-archway</span></li>
+        <li><i class="fa fa-arrow-alt-circle-down"></i> <span class="fa-name">fa-arrow-alt-circle-down</span></li>
+        <li><i class="fa fa-arrow-alt-circle-left"></i> <span class="fa-name">fa-arrow-alt-circle-left</span></li>
+        <li><i class="fa fa-arrow-alt-circle-right"></i> <span class="fa-name">fa-arrow-alt-circle-right</span></li>
+        <li><i class="fa fa-arrow-alt-circle-up"></i> <span class="fa-name">fa-arrow-alt-circle-up</span></li>
+        <li><i class="fa fa-arrow-circle-down"></i> <span class="fa-name">fa-arrow-circle-down</span></li>
+        <li><i class="fa fa-arrow-circle-left"></i> <span class="fa-name">fa-arrow-circle-left</span></li>
+        <li><i class="fa fa-arrow-circle-up"></i> <span class="fa-name">fa-arrow-circle-up</span></li>
+        <li><i class="fa fa-arrow-down"></i> <span class="fa-name">fa-arrow-down</span></li>
+        <li><i class="fa fa-arrow-left"></i> <span class="fa-name">fa-arrow-left</span></li>
+        <li><i class="fa fa-arrow-right"></i> <span class="fa-name">fa-arrow-right</span></li>
+        <li><i class="fa fa-arrow-up"></i> <span class="fa-name">fa-arrow-up</span></li>
+        <li><i class="fa fa-arrows-alt"></i> <span class="fa-name">fa-arrows-alt</span></li>
+        <li><i class="fa fa-arrows-alt-h"></i> <span class="fa-name">fa-arrows-alt-h</span></li>
+        <li><i class="fa fa-arrows-alt-v"></i> <span class="fa-name">fa-arrows-alt-v</span></li>
+        <li><i class="fa fa-assistive-listening-systems"></i> <span class="fa-name">fa-assistive-listening-systems</span></li>
+        <li><i class="fa fa-asterisk"></i> <span class="fa-name">fa-asterisk</span></li>
+        <li><i class="fa fa-at"></i> <span class="fa-name">fa-at</span></li>
+        <li><i class="fa fa-atlas"></i> <span class="fa-name">fa-atlas</span></li>
+        <li><i class="fa fa-atom"></i> <span class="fa-name">fa-atom</span></li>
+        <li><i class="fa fa-audio-description"></i> <span class="fa-name">fa-audio-description</span></li>
+        <li><i class="fa fa-autoprefixer"></i> <span class="fa-name">fa-autoprefixer</span></li>
+        <li><i class="fa fa-aviato"></i> <span class="fa-name">fa-aviato</span></li>
+        <li><i class="fa fa-award"></i> <span class="fa-name">fa-award</span></li>
     </ul>
 
+    <h3 i18n:translate="">"Font Awesome 5 Brands", class using "fab"</h3>
     <ul class="font-group">
-        <li><i class="fa fa-glass"></i> <span class="fa-name">fa-glass</span>                <span class="fa-value">"\f000"</span></li>
-        <li><i class="fa fa-music"></i> <span class="fa-name">fa-music</span>                <span class="fa-value">"\f001"</span></li>
-        <li><i class="fa fa-search"></i> <span class="fa-name">fa-search</span>               <span class="fa-value">"\f002"</span></li>
-        <li><i class="fa fa-envelope"></i> <span class="fa-name">fa-envelope</span>             <span class="fa-value">"\f003"</span></li>
-        <li><i class="fa fa-heart"></i> <span class="fa-name">fa-heart</span>                <span class="fa-value">"\f004"</span></li>
-        <li><i class="fa fa-star"></i> <span class="fa-name">fa-star</span>                 <span class="fa-value">"\f005"</span></li>
-        <li><i class="fa fa-star-empty"></i> <span class="fa-name">fa-star-empty</span>           <span class="fa-value">"\f006"</span></li>
-        <li><i class="fa fa-user"></i> <span class="fa-name">fa-user</span>                 <span class="fa-value">"\f007"</span></li>
-        <li><i class="fa fa-film"></i> <span class="fa-name">fa-film</span>                 <span class="fa-value">"\f008"</span></li>
-        <li><i class="fa fa-th-large"></i> <span class="fa-name">fa-th-large</span>             <span class="fa-value">"\f009"</span></li>
-        <li><i class="fa fa-th"></i> <span class="fa-name">fa-th</span>                   <span class="fa-value">"\f00a"</span></li>
-        <li><i class="fa fa-th-list"></i> <span class="fa-name">fa-th-list</span>              <span class="fa-value">"\f00b"</span></li>
-        <li><i class="fa fa-ok"></i> <span class="fa-name">fa-ok</span>                   <span class="fa-value">"\f00c"</span></li>
-        <li><i class="fa fa-remove"></i> <span class="fa-name">fa-remove</span>               <span class="fa-value">"\f00d"</span></li>
-        <li><i class="fa fa-zoom-in"></i> <span class="fa-name">fa-zoom-in</span>              <span class="fa-value">"\f00e"</span></li>
-
-        <li><i class="fa fa-zoom-out"></i> <span class="fa-name">fa-zoom-out</span>             <span class="fa-value">"\f010"</span></li>
-        <li><i class="fa fa-off"></i> <span class="fa-name">fa-off</span>                  <span class="fa-value">"\f011"</span></li>
-        <li><i class="fa fa-signal"></i> <span class="fa-name">fa-signal</span>               <span class="fa-value">"\f012"</span></li>
-        <li><i class="fa fa-cog"></i> <span class="fa-name">fa-cog</span>                  <span class="fa-value">"\f013"</span></li>
-        <li><i class="fa fa-trash"></i> <span class="fa-name">fa-trash</span>                <span class="fa-value">"\f014"</span></li>
-        <li><i class="fa fa-home"></i> <span class="fa-name">fa-home</span>                 <span class="fa-value">"\f015"</span></li>
-        <li><i class="fa fa-file"></i> <span class="fa-name">fa-file</span>                 <span class="fa-value">"\f016"</span></li>
-        <li><i class="fa fa-time"></i> <span class="fa-name">fa-time</span>                 <span class="fa-value">"\f017"</span></li>
-        <li><i class="fa fa-road"></i> <span class="fa-name">fa-road</span>                 <span class="fa-value">"\f018"</span></li>
-        <li><i class="fa fa-download-alt"></i> <span class="fa-name">fa-download-alt</span>         <span class="fa-value">"\f019"</span></li>
-        <li><i class="fa fa-download"></i> <span class="fa-name">fa-download</span>             <span class="fa-value">"\f01a"</span></li>
-        <li><i class="fa fa-upload"></i> <span class="fa-name">fa-upload</span>               <span class="fa-value">"\f01b"</span></li>
-        <li><i class="fa fa-inbox"></i> <span class="fa-name">fa-inbox</span>                <span class="fa-value">"\f01c"</span></li>
-        <li><i class="fa fa-play-circle"></i> <span class="fa-name">fa-play-circle</span>          <span class="fa-value">"\f01d"</span></li>
-        <li><i class="fa fa-repeat"></i> <span class="fa-name">fa-repeat</span>               <span class="fa-value">"\f01e"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-refresh"></i> <span class="fa-name">fa-refresh</span>              <span class="fa-value">"\f021"</span></li>
-        <li><i class="fa fa-list-alt"></i> <span class="fa-name">fa-list-alt</span>             <span class="fa-value">"\f022"</span></li>
-        <li><i class="fa fa-lock"></i> <span class="fa-name">fa-lock</span>                 <span class="fa-value">"\f023"</span></li>
-        <li><i class="fa fa-flag"></i> <span class="fa-name">fa-flag</span>                 <span class="fa-value">"\f024"</span></li>
-        <li><i class="fa fa-headphones"></i> <span class="fa-name">fa-headphones</span>           <span class="fa-value">"\f025"</span></li>
-        <li><i class="fa fa-volume-off"></i> <span class="fa-name">fa-volume-off</span>           <span class="fa-value">"\f026"</span></li>
-        <li><i class="fa fa-volume-down"></i> <span class="fa-name">fa-volume-down</span>          <span class="fa-value">"\f027"</span></li>
-        <li><i class="fa fa-volume-up"></i> <span class="fa-name">fa-volume-up</span>            <span class="fa-value">"\f028"</span></li>
-        <li><i class="fa fa-qrcode"></i> <span class="fa-name">fa-qrcode</span>               <span class="fa-value">"\f029"</span></li>
-        <li><i class="fa fa-barcode"></i> <span class="fa-name">fa-barcode</span>              <span class="fa-value">"\f02a"</span></li>
-        <li><i class="fa fa-tag"></i> <span class="fa-name">fa-tag</span>                  <span class="fa-value">"\f02b"</span></li>
-        <li><i class="fa fa-tags"></i> <span class="fa-name">fa-tags</span>                 <span class="fa-value">"\f02c"</span></li>
-        <li><i class="fa fa-book"></i> <span class="fa-name">fa-book</span>                 <span class="fa-value">"\f02d"</span></li>
-        <li><i class="fa fa-bookmark"></i> <span class="fa-name">fa-bookmark</span>             <span class="fa-value">"\f02e"</span></li>
-        <li><i class="fa fa-print"></i> <span class="fa-name">fa-print</span>                <span class="fa-value">"\f02f"</span></li>
-
-        <li><i class="fa fa-camera"></i> <span class="fa-name">fa-camera</span>               <span class="fa-value">"\f030"</span></li>
-        <li><i class="fa fa-font"></i> <span class="fa-name">fa-font</span>                 <span class="fa-value">"\f031"</span></li>
-        <li><i class="fa fa-bold"></i> <span class="fa-name">fa-bold</span>                 <span class="fa-value">"\f032"</span></li>
-        <li><i class="fa fa-italic"></i> <span class="fa-name">fa-italic</span>               <span class="fa-value">"\f033"</span></li>
-        <li><i class="fa fa-text-height"></i> <span class="fa-name">fa-text-height</span>          <span class="fa-value">"\f034"</span></li>
-        <li><i class="fa fa-text-width"></i> <span class="fa-name">fa-text-width</span>           <span class="fa-value">"\f035"</span></li>
-        <li><i class="fa fa-align-left"></i> <span class="fa-name">fa-align-left</span>           <span class="fa-value">"\f036"</span></li>
-        <li><i class="fa fa-align-center"></i> <span class="fa-name">fa-align-center</span>         <span class="fa-value">"\f037"</span></li>
-        <li><i class="fa fa-align-right"></i> <span class="fa-name">fa-align-right</span>          <span class="fa-value">"\f038"</span></li>
-        <li><i class="fa fa-align-justify"></i> <span class="fa-name">fa-align-justify</span>        <span class="fa-value">"\f039"</span></li>
-        <li><i class="fa fa-list"></i> <span class="fa-name">fa-list</span>                 <span class="fa-value">"\f03a"</span></li>
-        <li><i class="fa fa-indent-left"></i> <span class="fa-name">fa-indent-left</span>          <span class="fa-value">"\f03b"</span></li>
-        <li><i class="fa fa-indent-right"></i> <span class="fa-name">fa-indent-right</span>         <span class="fa-value">"\f03c"</span></li>
-        <li><i class="fa fa-facetime-video"></i> <span class="fa-name">fa-facetime-video</span>       <span class="fa-value">"\f03d"</span></li>
-        <li><i class="fa fa-picture"></i> <span class="fa-name">fa-picture</span>              <span class="fa-value">"\f03e"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-pencil"></i> <span class="fa-name">fa-pencil</span>               <span class="fa-value">"\f040"</span></li>
-        <li><i class="fa fa-map-marker"></i> <span class="fa-name">fa-map-marker</span>           <span class="fa-value">"\f041"</span></li>
-        <li><i class="fa fa-adjust"></i> <span class="fa-name">fa-adjust</span>               <span class="fa-value">"\f042"</span></li>
-        <li><i class="fa fa-tint"></i> <span class="fa-name">fa-tint</span>                 <span class="fa-value">"\f043"</span></li>
-        <li><i class="fa fa-edit"></i> <span class="fa-name">fa-edit</span>                 <span class="fa-value">"\f044"</span></li>
-        <li><i class="fa fa-share"></i> <span class="fa-name">fa-share</span>                <span class="fa-value">"\f045"</span></li>
-        <li><i class="fa fa-check"></i> <span class="fa-name">fa-check</span>                <span class="fa-value">"\f046"</span></li>
-        <li><i class="fa fa-move"></i> <span class="fa-name">fa-move</span>                 <span class="fa-value">"\f047"</span></li>
-        <li><i class="fa fa-step-backward"></i> <span class="fa-name">fa-step-backward</span>        <span class="fa-value">"\f048"</span></li>
-        <li><i class="fa fa-fast-backward"></i> <span class="fa-name">fa-fast-backward</span>        <span class="fa-value">"\f049"</span></li>
-        <li><i class="fa fa-backward"></i> <span class="fa-name">fa-backward</span>             <span class="fa-value">"\f04a"</span></li>
-        <li><i class="fa fa-play"></i> <span class="fa-name">fa-play</span>                 <span class="fa-value">"\f04b"</span></li>
-        <li><i class="fa fa-pause"></i> <span class="fa-name">fa-pause</span>                <span class="fa-value">"\f04c"</span></li>
-        <li><i class="fa fa-stop"></i> <span class="fa-name">fa-stop</span>                 <span class="fa-value">"\f04d"</span></li>
-        <li><i class="fa fa-forward"></i> <span class="fa-name">fa-forward</span>              <span class="fa-value">"\f04e"</span></li>
-
-        <li><i class="fa fa-fast-forward"></i> <span class="fa-name">fa-fast-forward</span>         <span class="fa-value">"\f050"</span></li>
-        <li><i class="fa fa-step-forward"></i> <span class="fa-name">fa-step-forward</span>         <span class="fa-value">"\f051"</span></li>
-        <li><i class="fa fa-eject"></i> <span class="fa-name">fa-eject</span>                <span class="fa-value">"\f052"</span></li>
-        <li><i class="fa fa-chevron-left"></i> <span class="fa-name">fa-chevron-left</span>         <span class="fa-value">"\f053"</span></li>
-        <li><i class="fa fa-chevron-right"></i> <span class="fa-name">fa-chevron-right</span>        <span class="fa-value">"\f054"</span></li>
-        <li><i class="fa fa-plus-sign"></i> <span class="fa-name">fa-plus-sign</span>            <span class="fa-value">"\f055"</span></li>
-        <li><i class="fa fa-minus-sign"></i> <span class="fa-name">fa-minus-sign</span>           <span class="fa-value">"\f056"</span></li>
-        <li><i class="fa fa-remove-sign"></i> <span class="fa-name">fa-remove-sign</span>          <span class="fa-value">"\f057"</span></li>
-        <li><i class="fa fa-ok-sign"></i> <span class="fa-name">fa-ok-sign</span>              <span class="fa-value">"\f058"</span></li>
-        <li><i class="fa fa-question-sign"></i> <span class="fa-name">fa-question-sign</span>        <span class="fa-value">"\f059"</span></li>
-        <li><i class="fa fa-info-sign"></i> <span class="fa-name">fa-info-sign</span>            <span class="fa-value">"\f05a"</span></li>
-        <li><i class="fa fa-screenshot"></i> <span class="fa-name">fa-screenshot</span>           <span class="fa-value">"\f05b"</span></li>
-        <li><i class="fa fa-remove-circle"></i> <span class="fa-name">fa-remove-circle</span>        <span class="fa-value">"\f05c"</span></li>
-        <li><i class="fa fa-ok-circle"></i> <span class="fa-name">fa-ok-circle</span>            <span class="fa-value">"\f05d"</span></li>
-        <li><i class="fa fa-ban-circle"></i> <span class="fa-name">fa-ban-circle</span>           <span class="fa-value">"\f05e"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-arrow-left"></i> <span class="fa-name">fa-arrow-left</span>           <span class="fa-value">"\f060"</span></li>
-        <li><i class="fa fa-arrow-right"></i> <span class="fa-name">fa-arrow-right</span>          <span class="fa-value">"\f061"</span></li>
-        <li><i class="fa fa-arrow-up"></i> <span class="fa-name">fa-arrow-up</span>             <span class="fa-value">"\f062"</span></li>
-        <li><i class="fa fa-arrow-down"></i> <span class="fa-name">fa-arrow-down</span>           <span class="fa-value">"\f063"</span></li>
-        <li><i class="fa fa-share-alt"></i> <span class="fa-name">fa-share-alt</span>            <span class="fa-value">"\f064"</span></li>
-        <li><i class="fa fa-resize-full"></i> <span class="fa-name">fa-resize-full</span>          <span class="fa-value">"\f065"</span></li>
-        <li><i class="fa fa-resize-small"></i> <span class="fa-name">fa-resize-small</span>         <span class="fa-value">"\f066"</span></li>
-        <li><i class="fa fa-plus"></i> <span class="fa-name">fa-plus</span>                 <span class="fa-value">"\f067"</span></li>
-        <li><i class="fa fa-minus"></i> <span class="fa-name">fa-minus</span>                <span class="fa-value">"\f068"</span></li>
-        <li><i class="fa fa-asterisk"></i> <span class="fa-name">fa-asterisk</span>             <span class="fa-value">"\f069"</span></li>
-        <li><i class="fa fa-exclamation-sign"></i> <span class="fa-name">fa-exclamation-sign</span>     <span class="fa-value">"\f06a"</span></li>
-        <li><i class="fa fa-gift"></i> <span class="fa-name">fa-gift</span>                 <span class="fa-value">"\f06b"</span></li>
-        <li><i class="fa fa-leaf"></i> <span class="fa-name">fa-leaf</span>                 <span class="fa-value">"\f06c"</span></li>
-        <li><i class="fa fa-fire"></i> <span class="fa-name">fa-fire</span>                 <span class="fa-value">"\f06d"</span></li>
-        <li><i class="fa fa-eye-open"></i> <span class="fa-name">fa-eye-open</span>             <span class="fa-value">"\f06e"</span></li>
-
-        <li><i class="fa fa-eye-close"></i> <span class="fa-name">fa-eye-close</span>            <span class="fa-value">"\f070"</span></li>
-        <li><i class="fa fa-warning-sign"></i> <span class="fa-name">fa-warning-sign</span>         <span class="fa-value">"\f071"</span></li>
-        <li><i class="fa fa-plane"></i> <span class="fa-name">fa-plane</span>                <span class="fa-value">"\f072"</span></li>
-        <li><i class="fa fa-calendar"></i> <span class="fa-name">fa-calendar</span>             <span class="fa-value">"\f073"</span></li>
-        <li><i class="fa fa-random"></i> <span class="fa-name">fa-random</span>               <span class="fa-value">"\f074"</span></li>
-        <li><i class="fa fa-comment"></i> <span class="fa-name">fa-comment</span>              <span class="fa-value">"\f075"</span></li>
-        <li><i class="fa fa-magnet"></i> <span class="fa-name">fa-magnet</span>               <span class="fa-value">"\f076"</span></li>
-        <li><i class="fa fa-chevron-up"></i> <span class="fa-name">fa-chevron-up</span>           <span class="fa-value">"\f077"</span></li>
-        <li><i class="fa fa-chevron-down"></i> <span class="fa-name">fa-chevron-down</span>         <span class="fa-value">"\f078"</span></li>
-        <li><i class="fa fa-retweet"></i> <span class="fa-name">fa-retweet</span>              <span class="fa-value">"\f079"</span></li>
-        <li><i class="fa fa-shopping-cart"></i> <span class="fa-name">fa-shopping-cart</span>        <span class="fa-value">"\f07a"</span></li>
-        <li><i class="fa fa-folder-close"></i> <span class="fa-name">fa-folder-close</span>         <span class="fa-value">"\f07b"</span></li>
-        <li><i class="fa fa-folder-open"></i> <span class="fa-name">fa-folder-open</span>          <span class="fa-value">"\f07c"</span></li>
-        <li><i class="fa fa-resize-vertical"></i> <span class="fa-name">fa-resize-vertical</span>      <span class="fa-value">"\f07d"</span></li>
-        <li><i class="fa fa-resize-horizontal"></i> <span class="fa-name">fa-resize-horizontal</span>    <span class="fa-value">"\f07e"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-bar-chart"></i> <span class="fa-name">fa-bar-chart</span>            <span class="fa-value">"\f080"</span></li>
-        <li><i class="fa fa-twitter-sign"></i> <span class="fa-name">fa-twitter-sign</span>         <span class="fa-value">"\f081"</span></li>
-        <li><i class="fa fa-facebook-sign"></i> <span class="fa-name">fa-facebook-sign</span>        <span class="fa-value">"\f082"</span></li>
-        <li><i class="fa fa-camera-retro"></i> <span class="fa-name">fa-camera-retro</span>         <span class="fa-value">"\f083"</span></li>
-        <li><i class="fa fa-key"></i> <span class="fa-name">fa-key</span>                  <span class="fa-value">"\f084"</span></li>
-        <li><i class="fa fa-cogs"></i> <span class="fa-name">fa-cogs</span>                 <span class="fa-value">"\f085"</span></li>
-        <li><i class="fa fa-comments"></i> <span class="fa-name">fa-comments</span>             <span class="fa-value">"\f086"</span></li>
-        <li><i class="fa fa-thumbs-up"></i> <span class="fa-name">fa-thumbs-up</span>            <span class="fa-value">"\f087"</span></li>
-        <li><i class="fa fa-thumbs-down"></i> <span class="fa-name">fa-thumbs-down</span>          <span class="fa-value">"\f088"</span></li>
-        <li><i class="fa fa-star-half"></i> <span class="fa-name">fa-star-half</span>            <span class="fa-value">"\f089"</span></li>
-        <li><i class="fa fa-heart-empty"></i> <span class="fa-name">fa-heart-empty</span>          <span class="fa-value">"\f08a"</span></li>
-        <li><i class="fa fa-signout"></i> <span class="fa-name">fa-signout</span>              <span class="fa-value">"\f08b"</span></li>
-        <li><i class="fa fa-linkedin-sign"></i> <span class="fa-name">fa-linkedin-sign</span>        <span class="fa-value">"\f08c"</span></li>
-        <li><i class="fa fa-pushpin"></i> <span class="fa-name">fa-pushpin</span>              <span class="fa-value">"\f08d"</span></li>
-        <li><i class="fa fa-external-link"></i> <span class="fa-name">fa-external-link</span>        <span class="fa-value">"\f08e"</span></li>
-
-        <li><i class="fa fa-signin"></i> <span class="fa-name">fa-signin</span>               <span class="fa-value">"\f090"</span></li>
-        <li><i class="fa fa-trophy"></i> <span class="fa-name">fa-trophy</span>               <span class="fa-value">"\f091"</span></li>
-        <li><i class="fa fa-github-sign"></i> <span class="fa-name">fa-github-sign</span>          <span class="fa-value">"\f092"</span></li>
-        <li><i class="fa fa-upload-alt"></i> <span class="fa-name">fa-upload-alt</span>           <span class="fa-value">"\f093"</span></li>
-        <li><i class="fa fa-lemon"></i> <span class="fa-name">fa-lemon</span>                <span class="fa-value">"\f094"</span></li>
-        <li><i class="fa fa-phone"></i> <span class="fa-name">fa-phone</span>                <span class="fa-value">"\f095"</span></li>
-        <li><i class="fa fa-check-empty"></i> <span class="fa-name">fa-check-empty</span>          <span class="fa-value">"\f096"</span></li>
-        <li><i class="fa fa-bookmark-empty"></i> <span class="fa-name">fa-bookmark-empty</span>       <span class="fa-value">"\f097"</span></li>
-        <li><i class="fa fa-phone-sign"></i> <span class="fa-name">fa-phone-sign</span>           <span class="fa-value">"\f098"</span></li>
-        <li><i class="fa fa-twitter"></i> <span class="fa-name">fa-twitter</span>              <span class="fa-value">"\f099"</span></li>
-        <li><i class="fa fa-facebook"></i> <span class="fa-name">fa-facebook</span>             <span class="fa-value">"\f09a"</span></li>
-        <li><i class="fa fa-github"></i> <span class="fa-name">fa-github</span>               <span class="fa-value">"\f09b"</span></li>
-        <li><i class="fa fa-unlock"></i> <span class="fa-name">fa-unlock</span>               <span class="fa-value">"\f09c"</span></li>
-        <li><i class="fa fa-credit-card"></i> <span class="fa-name">fa-credit-card</span>          <span class="fa-value">"\f09d"</span></li>
-        <li><i class="fa fa-rss"></i> <span class="fa-name">fa-rss</span>                  <span class="fa-value">"\f09e"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-hdd"></i> <span class="fa-name">fa-hdd</span>                  <span class="fa-value">"\f0a0"</span></li>
-        <li><i class="fa fa-bullhorn"></i> <span class="fa-name">fa-bullhorn</span>             <span class="fa-value">"\f0a1"</span></li>
-        <li><i class="fa fa-bell"></i> <span class="fa-name">fa-bell</span>                 <span class="fa-value">"\f0a2"</span></li>
-        <li><i class="fa fa-certificate"></i> <span class="fa-name">fa-certificate</span>          <span class="fa-value">"\f0a3"</span></li>
-        <li><i class="fa fa-hand-right"></i> <span class="fa-name">fa-hand-right</span>           <span class="fa-value">"\f0a4"</span></li>
-        <li><i class="fa fa-hand-left"></i> <span class="fa-name">fa-hand-left</span>            <span class="fa-value">"\f0a5"</span></li>
-        <li><i class="fa fa-hand-up"></i> <span class="fa-name">fa-hand-up</span>              <span class="fa-value">"\f0a6"</span></li>
-        <li><i class="fa fa-hand-down"></i> <span class="fa-name">fa-hand-down</span>            <span class="fa-value">"\f0a7"</span></li>
-        <li><i class="fa fa-circle-arrow-left"></i> <span class="fa-name">fa-circle-arrow-left</span>    <span class="fa-value">"\f0a8"</span></li>
-        <li><i class="fa fa-circle-arrow-right"></i> <span class="fa-name">fa-circle-arrow-right</span>   <span class="fa-value">"\f0a9"</span></li>
-        <li><i class="fa fa-circle-arrow-up"></i> <span class="fa-name">fa-circle-arrow-up</span>      <span class="fa-value">"\f0aa"</span></li>
-        <li><i class="fa fa-circle-arrow-down"></i> <span class="fa-name">fa-circle-arrow-down</span>    <span class="fa-value">"\f0ab"</span></li>
-        <li><i class="fa fa-globe"></i> <span class="fa-name">fa-globe</span>                <span class="fa-value">"\f0ac"</span></li>
-        <li><i class="fa fa-wrench"></i> <span class="fa-name">fa-wrench</span>               <span class="fa-value">"\f0ad"</span></li>
-        <li><i class="fa fa-tasks"></i> <span class="fa-name">fa-tasks</span>                <span class="fa-value">"\f0ae"</span></li>
-
-        <li><i class="fa fa-filter"></i> <span class="fa-name">fa-filter</span>               <span class="fa-value">"\f0b0"</span></li>
-        <li><i class="fa fa-briefcase"></i> <span class="fa-name">fa-briefcase</span>            <span class="fa-value">"\f0b1"</span></li>
-        <li><i class="fa fa-fullscreen"></i> <span class="fa-name">fa-fullscreen</span>           <span class="fa-value">"\f0b2"</span></li>
-
-        <li><i class="fa fa-group"></i> <span class="fa-name">fa-group</span>                <span class="fa-value">"\f0c0"</span></li>
-        <li><i class="fa fa-link"></i> <span class="fa-name">fa-link</span>                 <span class="fa-value">"\f0c1"</span></li>
-        <li><i class="fa fa-cloud"></i> <span class="fa-name">fa-cloud</span>                <span class="fa-value">"\f0c2"</span></li>
-        <li><i class="fa fa-beaker"></i> <span class="fa-name">fa-beaker</span>               <span class="fa-value">"\f0c3"</span></li>
-        <li><i class="fa fa-cut"></i> <span class="fa-name">fa-cut</span>                  <span class="fa-value">"\f0c4"</span></li>
-        <li><i class="fa fa-copy"></i> <span class="fa-name">fa-copy</span>                 <span class="fa-value">"\f0c5"</span></li>
-        <li><i class="fa fa-paper-clip"></i> <span class="fa-name">fa-paper-clip</span>           <span class="fa-value">"\f0c6"</span></li>
-        <li><i class="fa fa-save"></i> <span class="fa-name">fa-save</span>                 <span class="fa-value">"\f0c7"</span></li>
-        <li><i class="fa fa-sign-blank"></i> <span class="fa-name">fa-sign-blank</span>           <span class="fa-value">"\f0c8"</span></li>
-        <li><i class="fa fa-reorder"></i> <span class="fa-name">fa-reorder</span>              <span class="fa-value">"\f0c9"</span></li>
-        <li><i class="fa fa-list-ul"></i> <span class="fa-name">fa-list-ul</span>              <span class="fa-value">"\f0ca"</span></li>
-        <li><i class="fa fa-list-ol"></i> <span class="fa-name">fa-list-ol</span>              <span class="fa-value">"\f0cb"</span></li>
-        <li><i class="fa fa-strikethrough"></i> <span class="fa-name">fa-strikethrough</span>        <span class="fa-value">"\f0cc"</span></li>
-        <li><i class="fa fa-underline"></i> <span class="fa-name">fa-underline</span>            <span class="fa-value">"\f0cd"</span></li>
-        <li><i class="fa fa-table"></i> <span class="fa-name">fa-table</span>                <span class="fa-value">"\f0ce"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-magic"></i> <span class="fa-name">fa-magic</span>                <span class="fa-value">"\f0d0"</span></li>
-        <li><i class="fa fa-truck"></i> <span class="fa-name">fa-truck</span>                <span class="fa-value">"\f0d1"</span></li>
-        <li><i class="fa fa-pinterest"></i> <span class="fa-name">fa-pinterest</span>            <span class="fa-value">"\f0d2"</span></li>
-        <li><i class="fa fa-pinterest-sign"></i> <span class="fa-name">fa-pinterest-sign</span>       <span class="fa-value">"\f0d3"</span></li>
-        <li><i class="fa fa-google-plus-sign"></i> <span class="fa-name">fa-google-plus-sign</span>     <span class="fa-value">"\f0d4"</span></li>
-        <li><i class="fa fa-google-plus"></i> <span class="fa-name">fa-google-plus</span>          <span class="fa-value">"\f0d5"</span></li>
-        <li><i class="fa fa-money"></i> <span class="fa-name">fa-money</span>                <span class="fa-value">"\f0d6"</span></li>
-        <li><i class="fa fa-caret-down"></i> <span class="fa-name">fa-caret-down</span>           <span class="fa-value">"\f0d7"</span></li>
-        <li><i class="fa fa-caret-up"></i> <span class="fa-name">fa-caret-up</span>             <span class="fa-value">"\f0d8"</span></li>
-        <li><i class="fa fa-caret-left"></i> <span class="fa-name">fa-caret-left</span>           <span class="fa-value">"\f0d9"</span></li>
-        <li><i class="fa fa-caret-right"></i> <span class="fa-name">fa-caret-right</span>          <span class="fa-value">"\f0da"</span></li>
-        <li><i class="fa fa-columns"></i> <span class="fa-name">fa-columns</span>              <span class="fa-value">"\f0db"</span></li>
-        <li><i class="fa fa-sort"></i> <span class="fa-name">fa-sort</span>                 <span class="fa-value">"\f0dc"</span></li>
-        <li><i class="fa fa-sort-down"></i> <span class="fa-name">fa-sort-down</span>            <span class="fa-value">"\f0dd"</span></li>
-        <li><i class="fa fa-sort-up"></i> <span class="fa-name">fa-sort-up</span>              <span class="fa-value">"\f0de"</span></li>
-
-        <li><i class="fa fa-envelope-alt"></i> <span class="fa-name">fa-envelope-alt</span>         <span class="fa-value">"\f0e0"</span></li>
-        <li><i class="fa fa-linkedin"></i> <span class="fa-name">fa-linkedin</span>             <span class="fa-value">"\f0e1"</span></li>
-        <li><i class="fa fa-undo"></i> <span class="fa-name">fa-undo</span>                 <span class="fa-value">"\f0e2"</span></li>
-        <li><i class="fa fa-legal"></i> <span class="fa-name">fa-legal</span>                <span class="fa-value">"\f0e3"</span></li>
-        <li><i class="fa fa-dashboard"></i> <span class="fa-name">fa-dashboard</span>            <span class="fa-value">"\f0e4"</span></li>
-        <li><i class="fa fa-comment-alt"></i> <span class="fa-name">fa-comment-alt</span>          <span class="fa-value">"\f0e5"</span></li>
-        <li><i class="fa fa-comments-alt"></i> <span class="fa-name">fa-comments-alt</span>         <span class="fa-value">"\f0e6"</span></li>
-        <li><i class="fa fa-bolt"></i> <span class="fa-name">fa-bolt</span>                 <span class="fa-value">"\f0e7"</span></li>
-        <li><i class="fa fa-sitemap"></i> <span class="fa-name">fa-sitemap</span>              <span class="fa-value">"\f0e8"</span></li>
-        <li><i class="fa fa-umbrella"></i> <span class="fa-name">fa-umbrella</span>             <span class="fa-value">"\f0e9"</span></li>
-        <li><i class="fa fa-paste"></i> <span class="fa-name">fa-paste</span>                <span class="fa-value">"\f0ea"</span></li>
-        <li><i class="fa fa-lightbulb"></i> <span class="fa-name">fa-lightbulb</span>            <span class="fa-value">"\f0eb"</span></li>
-        <li><i class="fa fa-exchange"></i> <span class="fa-name">fa-exchange</span>             <span class="fa-value">"\f0ec"</span></li>
-        <li><i class="fa fa-cloud-download"></i> <span class="fa-name">fa-cloud-download</span>       <span class="fa-value">"\f0ed"</span></li>
-        <li><i class="fa fa-cloud-upload"></i> <span class="fa-name">fa-cloud-upload</span>         <span class="fa-value">"\f0ee"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-user-md"></i> <span class="fa-name">fa-user-md</span>              <span class="fa-value">"\f0f0"</span></li>
-        <li><i class="fa fa-stethoscope"></i> <span class="fa-name">fa-stethoscope</span>          <span class="fa-value">"\f0f1"</span></li>
-        <li><i class="fa fa-suitcase"></i> <span class="fa-name">fa-suitcase</span>             <span class="fa-value">"\f0f2"</span></li>
-        <li><i class="fa fa-bell-alt"></i> <span class="fa-name">fa-bell-alt</span>             <span class="fa-value">"\f0f3"</span></li>
-        <li><i class="fa fa-coffee"></i> <span class="fa-name">fa-coffee</span>               <span class="fa-value">"\f0f4"</span></li>
-        <li><i class="fa fa-food"></i> <span class="fa-name">fa-food</span>                 <span class="fa-value">"\f0f5"</span></li>
-        <li><i class="fa fa-file-alt"></i> <span class="fa-name">fa-file-alt</span>             <span class="fa-value">"\f0f6"</span></li>
-        <li><i class="fa fa-building"></i> <span class="fa-name">fa-building</span>             <span class="fa-value">"\f0f7"</span></li>
-        <li><i class="fa fa-hospital"></i> <span class="fa-name">fa-hospital</span>             <span class="fa-value">"\f0f8"</span></li>
-        <li><i class="fa fa-ambulance"></i> <span class="fa-name">fa-ambulance</span>            <span class="fa-value">"\f0f9"</span></li>
-        <li><i class="fa fa-medkit"></i> <span class="fa-name">fa-medkit</span>               <span class="fa-value">"\f0fa"</span></li>
-        <li><i class="fa fa-fighter-jet"></i> <span class="fa-name">fa-fighter-jet</span>          <span class="fa-value">"\f0fb"</span></li>
-        <li><i class="fa fa-beer"></i> <span class="fa-name">fa-beer</span>                 <span class="fa-value">"\f0fc"</span></li>
-        <li><i class="fa fa-h-sign"></i> <span class="fa-name">fa-h-sign</span>               <span class="fa-value">"\f0fd"</span></li>
-        <li><i class="fa fa-plus-sign-alt"></i> <span class="fa-name">fa-plus-sign-alt</span>        <span class="fa-value">"\f0fe"</span></li>
-
-        <li><i class="fa fa-double-angle-left"></i> <span class="fa-name">fa-double-angle-left</span>    <span class="fa-value">"\f100"</span></li>
-        <li><i class="fa fa-double-angle-right"></i> <span class="fa-name">fa-double-angle-right</span>   <span class="fa-value">"\f101"</span></li>
-        <li><i class="fa fa-double-angle-up"></i> <span class="fa-name">fa-double-angle-up</span>      <span class="fa-value">"\f102"</span></li>
-        <li><i class="fa fa-double-angle-down"></i> <span class="fa-name">fa-double-angle-down</span>    <span class="fa-value">"\f103"</span></li>
-        <li><i class="fa fa-angle-left"></i> <span class="fa-name">fa-angle-left</span>           <span class="fa-value">"\f104"</span></li>
-        <li><i class="fa fa-angle-right"></i> <span class="fa-name">fa-angle-right</span>          <span class="fa-value">"\f105"</span></li>
-        <li><i class="fa fa-angle-up"></i> <span class="fa-name">fa-angle-up</span>             <span class="fa-value">"\f106"</span></li>
-        <li><i class="fa fa-angle-down"></i> <span class="fa-name">fa-angle-down</span>           <span class="fa-value">"\f107"</span></li>
-        <li><i class="fa fa-desktop"></i> <span class="fa-name">fa-desktop</span>              <span class="fa-value">"\f108"</span></li>
-        <li><i class="fa fa-laptop"></i> <span class="fa-name">fa-laptop</span>               <span class="fa-value">"\f109"</span></li>
-        <li><i class="fa fa-tablet"></i> <span class="fa-name">fa-tablet</span>               <span class="fa-value">"\f10a"</span></li>
-        <li><i class="fa fa-mobile-phone"></i> <span class="fa-name">fa-mobile-phone</span>         <span class="fa-value">"\f10b"</span></li>
-        <li><i class="fa fa-circle-blank"></i> <span class="fa-name">fa-circle-blank</span>         <span class="fa-value">"\f10c"</span></li>
-        <li><i class="fa fa-quote-left"></i> <span class="fa-name">fa-quote-left</span>           <span class="fa-value">"\f10d"</span></li>
-        <li><i class="fa fa-quote-right"></i> <span class="fa-name">fa-quote-right</span>          <span class="fa-value">"\f10e"</span></li>
-    </ul>
-    <ul class="font-group">
-        <li><i class="fa fa-spinner"></i> <span class="fa-name">fa-spinner</span>              <span class="fa-value">"\f110"</span></li>
-        <li><i class="fa fa-circle"></i> <span class="fa-name">fa-circle</span>               <span class="fa-value">"\f111"</span></li>
-        <li><i class="fa fa-reply"></i> <span class="fa-name">fa-reply</span>                <span class="fa-value">"\f112"</span></li>
-        <li><i class="fa fa-github-alt"></i> <span class="fa-name">fa-github-alt</span>           <span class="fa-value">"\f113"</span></li>
-        <li><i class="fa fa-folder-close-alt"></i> <span class="fa-name">fa-folder-close-alt</span>     <span class="fa-value">"\f114"</span></li>
-        <li><i class="fa fa-folder-open-alt"></i> <span class="fa-name">fa-folder-open-alt</span>      <span class="fa-value">"\f115"</span></li>
+        <li><i class="fab fa-500px"></i> <span class="fa-name">fa-500px</span></li>
+        <li><i class="fab fa-accessible-icon"></i> <span class="fa-name">fa-accessible-icon</span></li>
+        <li><i class="fab fa-accusoft"></i> <span class="fa-name">fa-accusoft</span></li>
+        <li><i class="fab fa-adn"></i> <span class="fa-name">fa-adn</span></li>
+        <li><i class="fab fa-adversal"></i> <span class="fa-name">fa-adversal</span></li>
+        <li><i class="fab fa-affiliatetheme"></i> <span class="fa-name">fa-affiliatetheme</span></li>
+        <li><i class="fab fa-algolia"></i> <span class="fa-name">fa-algolia</span></li>
+        <li><i class="fab fa-amazon"></i> <span class="fa-name">fa-amazon</span></li>
+        <li><i class="fab fa-amazon-pay"></i> <span class="fa-name">fa-amazon-pay</span></li>
+        <li><i class="fab fa-amilia"></i> <span class="fa-name">fa-amilia</span></li>
+        <li><i class="fab fa-android"></i> <span class="fa-name">fa-android</span></li>
+        <li><i class="fab fa-angellist"></i> <span class="fa-name">fa-angellist</span></li>
+        <li><i class="fab fa-angrycreative"></i> <span class="fa-name">fa-angrycreative</span></li>
+        <li><i class="fab fa-angular"></i> <span class="fa-name">fa-angular</span></li>
+        <li><i class="fab fa-app-store"></i> <span class="fa-name">fa-app-store</span></li>
+        <li><i class="fab fa-app-store-ios"></i> <span class="fa-name">fa-app-store-ios</span></li>
+        <li><i class="fab fa-apper"></i> <span class="fa-name">fa-apper</span></li>
+        <li><i class="fab fa-apple"></i> <span class="fa-name">fa-apple</span></li>
+        <li><i class="fab fa-apple-pay"></i> <span class="fa-name">fa-apple-pay</span></li>
+        <li><i class="fab fa-asymmetrik"></i> <span class="fa-name">fa-asymmetrik</span></li>
+        <li><i class="fab fa-audible"></i> <span class="fa-name">fa-audible</span></li>
+        <li><i class="fab fa-autoprefixer"></i> <span class="fa-name">fa-autoprefixer</span></li>
+        <li><i class="fab fa-avianex"></i> <span class="fa-name">fa-avianex</span></li>
+        <li><i class="fab fa-aviato"></i> <span class="fa-name">fa-aviato</span></li>
+        <li><i class="fab fa-aws"></i> <span class="fa-name">fa-aws</span></li>
     </ul>
 
     </div>
