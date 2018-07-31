@@ -2,8 +2,8 @@ language: python
 python: 2.7
 env:
   - TARGET=test
-  - TARGET=coverage.sh
 
+#  - TARGET=coverage.sh
 #  - TARGET=python-validation.sh
 #  - TARGET=css-validation.sh
 #  - TARGET=js-validation.sh
