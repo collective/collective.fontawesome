@@ -9,7 +9,8 @@
 .icons-on #plone-contentmenu-factories .contenttype-file,
 .icons-on #plone-contentmenu-factories .contenttype-image {
     background: transparent;
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     padding-left: 0 !important;
 }
 
@@ -18,7 +19,7 @@
 }
 
 .icons-on .contenttype-link:before {
-  content: "\f08e  ";
+  content: "\f0c1  ";
 }
 
 .icons-on .contenttype-collection:before {
@@ -42,55 +43,65 @@
 }
 
 .icons-on .contenttype-document:before {
-  content: "\f0f6  ";
+  content: "\f15c  ";
 }
 
 .actionicon-object_buttons-cut:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f0c4  ";
 }
 
 .actionicon-object_buttons-copy:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f0c5  ";
 }
 
 .actionicon-object_buttons-paste:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f0ea  ";
 }
 
 .actionicon-object_buttons-delete:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f014  ";
 }
 
 .actionicon-object_buttons-rename:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f044  ";
 }
 
 #personaltools-logout a:before {
-  font-family: FontAwesome;
-  content: "\f08b  ";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2f5  ";
 }
 
 #personaltools-dashboard a:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f0e4  ";
 }
 
 #personaltools-plone_setup a:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f085  ";
 }
 
 #personaltools-preferences a:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f007  ";
 }
 
 #personaltools-my-documents a:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f0c5  ";
 }

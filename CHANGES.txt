@@ -9,6 +9,7 @@ Changelog
 - Added more strings classifiers items for this package [macagua]
 - Added i18n support [macagua]
 - Added Spanish translation [macagua]
+- Moved to fontawesome 5.2.0 [gbastien]
 
 
 1.0.5 (2017-05-23)
