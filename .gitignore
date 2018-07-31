@@ -60,6 +60,8 @@ Thumbs.db
 *.egg
 .mr.developer.cfg
 .installed.cfg
+.coverage
+htmlcov
 
 # Eclipse pydev related #
 #########################
