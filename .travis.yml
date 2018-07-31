@@ -3,8 +3,8 @@ python: 2.7
 env:
   - TARGET=test
   - TARGET=coverage.sh
-  - TARGET=python-validation.sh
 
+#  - TARGET=python-validation.sh
 #  - TARGET=css-validation.sh
 #  - TARGET=js-validation.sh
 
@@ -33,3 +33,7 @@ install:
   - bin/buildout -N -t 3 -c travis.cfg
 
 script: bin/$TARGET
+
+notifications:
+  email:
+- devs@imio.be
