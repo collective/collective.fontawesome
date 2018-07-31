@@ -1,6 +1,9 @@
+from collective.fontawesome import testing
+from plone.app.testing import TEST_USER_ID
+from plone.app.testing.helpers import setRoles
+
 import transaction
 import unittest
-from collective.fontawesome import testing
 
 
 class UnitTestCase(unittest.TestCase):
@@ -16,9 +19,9 @@ class IntegrationTestCase(unittest.TestCase):
     def setUp(self):
         super(IntegrationTestCase, self).setUp()
         self.portal = self.layer['portal']
-        testing.setRoles(self.portal, testing.TEST_USER_ID, ['Manager'])
+        setRoles(self.portal, TEST_USER_ID, ['Manager'])
         self.portal.invokeFactory('Folder', 'test-folder')
-        testing.setRoles(self.portal, testing.TEST_USER_ID, ['Member'])
+        setRoles(self.portal, TEST_USER_ID, ['Member'])
         self.folder = self.portal['test-folder']
 
 
@@ -27,5 +30,5 @@ class FunctionalTestCase(IntegrationTestCase):
     layer = testing.FUNCTIONAL
 
     def setUp(self):
-        #we must commit the transaction
+        # we must commit the transaction
         transaction.commit()
