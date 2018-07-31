@@ -36,4 +36,4 @@ script: bin/$TARGET
 
 notifications:
   email:
-- devs@imio.be
+    - devs@imio.be
