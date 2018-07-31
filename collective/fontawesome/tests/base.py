@@ -1,5 +1,5 @@
 import transaction
-import unittest2 as unittest
+import unittest
 from collective.fontawesome import testing
 
 
