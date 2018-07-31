@@ -11,19 +11,19 @@
 <div metal:fill-slot="content-core">
     <tal:main-macro metal:define-macro="content-core">
 
-<p i18n:translate="">To use it just add class="fa fa-X" (for icons using "Font Awesome 5 Free") or class="fab fa-X" ("Font Awesome 5 Brands") to your tag where X is the icon you want:</p>
+<p i18n:translate="example_descr">To use it just add class="fa fa-X" (for icons using "Font Awesome 5 Free") or class="fab fa-X" ("Font Awesome 5 Brands") to your tag where X is the icon you want:</p>
 
 <style type="text/css">
     span.fa-value,
     span.fa-name {margin: 10px 10px; width: 130px;}
 </style>
 
-Full list of useable icons may be found here : <a hre="https://fontawesome.com/icons?d=gallery&m=free"></a>https://fontawesome.com/icons?d=gallery&m=free</a>
+Full list of useable icons may be found here : <a hre="https://fontawesome.com/icons?d=gallery&m=free">https://fontawesome.com/icons?d=gallery&m=free</a>
 
 <div id="font-awesome-list">
 
-    <h2 i18n:translate="">Some Fonts available in version 5.2.0</h2>
-    <h3 i18n:translate="">"Font Awesome 5 Free", class using "fa"</h3>
+    <h2 i18n:translate="example_some_fonts">Some Fonts available in version 5.2.0</h2>
+    <h3 i18n:translate="example_free">"Font Awesome 5 Free", class using "fa"</h3>
     <ul class="font-group">
         <li><i class="fa fa-address-book"></i> <span class="fa-name">fa-address-book</span></li>
         <li><i class="fa fa-address-card"></i> <span class="fa-name">fa-address-card</span></li>
@@ -76,7 +76,7 @@ Full list of useable icons may be found here : <a hre="https://fontawesome.com/i
         <li><i class="fa fa-award"></i> <span class="fa-name">fa-award</span></li>
     </ul>
 
-    <h3 i18n:translate="">"Font Awesome 5 Brands", class using "fab"</h3>
+    <h3 i18n:translate="example_brands">"Font Awesome 5 Brands", class using "fab"</h3>
     <ul class="font-group">
         <li><i class="fab fa-500px"></i> <span class="fa-name">fa-500px</span></li>
         <li><i class="fab fa-accessible-icon"></i> <span class="fa-name">fa-accessible-icon</span></li>

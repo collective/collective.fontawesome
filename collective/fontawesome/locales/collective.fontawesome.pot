@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-05-03 13:30+0000\n"
+"POT-Creation-Date: 2018-07-31 10:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,38 +17,46 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.fontawesome\n"
 
-#: ../configure.zcml:14
+#: ../configure.zcml:16
 msgid "Default extension profile"
 msgstr ""
 
-#: ../example/example.pt:75
-msgid "New Icons in 3.2.0"
-msgstr ""
-
-#: ../example/example.pt:23
-msgid "New Icons in 4.7.0"
-msgstr ""
-
-#: ../configure.zcml:30
+#: ../configure.zcml:32
 msgid "Plone 5 extension profile"
 msgstr ""
 
-#: ../example/example.pt:14
-msgid "To use it just add class=\"fa-X\" to your tag where X is the icon you want:"
-msgstr ""
-
-#: ../configure.zcml:22
+#: ../configure.zcml:24
 msgid "Use this profile if you want to replace the default Plone icons (e.g. for content types and actions) with FontAwesome fonts. IMPORTANT: this profile requires you to run the collective.fontawesome 'default' profile as well."
 msgstr ""
 
-#: ../configure.zcml:14
+#: ../configure.zcml:16
 msgid "collective.fontawesome (Default)"
 msgstr ""
 
-#: ../configure.zcml:30
+#: ../configure.zcml:32
 msgid "collective.fontawesome (Plone 5)"
 msgstr ""
 
-#: ../configure.zcml:22
+#: ../configure.zcml:24
 msgid "collective.fontawesome (Replace Plone icons)"
+msgstr ""
+
+#. Default: "\"Font Awesome 5 Brands\", class using \"fab\""
+#: ../example/example.pt:79
+msgid "example_brands"
+msgstr ""
+
+#. Default: "To use it just add class=\"fa fa-X\" (for icons using \"Font Awesome 5 Free\") or class=\"fab fa-X\" (\"Font Awesome 5 Brands\") to your tag where X is the icon you want:"
+#: ../example/example.pt:14
+msgid "example_descr"
+msgstr ""
+
+#. Default: "\"Font Awesome 5 Free\", class using \"fa\""
+#: ../example/example.pt:26
+msgid "example_free"
+msgstr ""
+
+#. Default: "Some Fonts available in version 5.2.0"
+#: ../example/example.pt:25
+msgid "example_some_fonts"
 msgstr ""
