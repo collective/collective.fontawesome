@@ -4,8 +4,8 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Fixed warning: no files found matching '*.rst' and '*.txt' under directory
-  'collective' from MANIFEST.in file [macagua]
+- Fixed warning: no files found matching `*.rst` and `*.txt` under directory
+  `collective` from MANIFEST.in file [macagua]
 - Added more strings classifiers items for this package [macagua]
 - Added i18n support [macagua]
 - Added Spanish translation [macagua]
@@ -24,7 +24,7 @@ Changelog
 ------------------
 
 - Update to fontawesome 4.6.3 [gbastien]
-- Include *.woff2 in MANIFEST.in so file is present in the release
+- Include `*.woff2` in MANIFEST.in so file is present in the release
   or we have an error in the browser console while trying to import
   file fontawesome-webfont.woff2 [gbastien]
 
