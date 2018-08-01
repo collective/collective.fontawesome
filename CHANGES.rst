@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1 (unreleased)
+1.1 (2018-08-01)
 ----------------
 
 - Fixed warning: no files found matching `*.rst` and `*.txt` under directory
