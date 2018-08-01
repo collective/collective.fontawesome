@@ -1,3 +1,7 @@
+.. image:: https://travis-ci.org/collective/collective.fontawesome.svg?branch=master
+    :target: https://travis-ci.org/collective/collective.fontawesome
+
+
 ======================
 collective.fontawesome
 ======================
