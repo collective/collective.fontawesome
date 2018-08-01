@@ -44,6 +44,8 @@ How to use
 
 Since version 5, FontAwesome changed the way it works and the Free version includes 2 fonts : "Font Awesome 5 Free" and "Font Awesome 5 Brands".
 
+https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4
+
 Depending on the icon you want to use, you have to use the "fa" or "fab" class :
 
 To use an icon from the "Font Awesome 5 Free" add class="fa fa-X", to use an icon from "Font Awesome 5 Brands", add class="fab fa-X" to your tag where X is the icon you want::
