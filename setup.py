@@ -5,7 +5,7 @@ version = '1.1.dev0'
 setup(name='collective.fontawesome',
       version=version,
       description="Font Awesome for Plone",
-      long_description=open("README.rst").read() + "\n" +
+      long_description=open("README.rst").read() + "\n\n" +
                        open("CHANGES.rst").read(),
       # Get more strings from
       # https://pypi.org/pypi?:action=list_classifiers
